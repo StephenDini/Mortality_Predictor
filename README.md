@@ -1,5 +1,20 @@
-# Mortality_Predictor
+# 💀  Mortality_Predictor
+
+## 🚧 Project Information
 Fill In Later
+
+---
+
+## 🪣 Results
+
+
+---
+
+## 🧮 Analysis
+
+---
+
+## 🟰 Summary
 
 ---
 
