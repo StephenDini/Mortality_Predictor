@@ -1,9 +1,10 @@
 # 💀  Mortality_Predictor
 
-## 🚧 Project Information
-# ETL Methodology
+## 🚧 Project Information by Parts
 
-### Data Files and Sources
+### ETL Methodology
+
+#### Data Files and Sources
 * Mortality Rate by Country
     * File name: 1855dc1a-df9c-4bdc-bab6-21f17897cebc.csv
     * Source: https://www.who.int/data/gho/data/indicators/indicator-details/GHO/adult-mortality-rate-(probability-of-dying-between-15-and-60-years-per-1000-population)
@@ -26,7 +27,7 @@
     * File name: literacy-rate-by-country
     * Source: https://ourworldindata.org/global-education
 
-### Approach
+#### Approach
 * Data files were first read in as dataframes
 * Each dataframe was then examined for content and layout
 * Some data was not available for all years
