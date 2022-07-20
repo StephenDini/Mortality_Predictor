@@ -4,6 +4,9 @@
 
 ### ETL Methodology
 
+### Question that we want to answer
+What are the socioeconomic and cultural factors that impact mortality rates around the world?
+
 #### Data Files and Sources
 * Mortality Rate by Country
     * File name: 1855dc1a-df9c-4bdc-bab6-21f17897cebc.csv
