@@ -57,6 +57,17 @@ What are the socioeconomic and cultural factors that impact mortality rates arou
 
 * Un-needed columns were dropped
 * Cleansed and transformed dataframes were then merged into a single data frame
+* Column mortality_rate was added to show the 2015 mortality rate data as a percentage
+* Column mortality_state was added binning denoting whether the mortality_rate is high(3), medium(2), or low(1) using breakpoints as follows:
+    *   Greater than 20% is considered high
+    *   Between 10% and 20% is considered medium
+    *   Less than 10% is considered low
+*   The above breakpoints were chosen as it produces a reasonable distribution of data between the bins.
+
+![Mortality Breakpoints](./pictures/mortality_state_breakpoints.png)
+
+
+
 * Data types were checked again just to makes nothing was missed
 * The data frame was saved as a csv file to be used in machine learning
 ---
