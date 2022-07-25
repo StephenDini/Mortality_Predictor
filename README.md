@@ -1,5 +1,8 @@
 # 💀  Mortality_Predictor
 
+### Communication
+As a group we have utilized Slack and Zoom as a means of communication.  We have reached out to both individuals and as a group in order to answer questions in a timely manor, as well as discuss goals, strategy, where we are in our portion of the project, and any future meeting times that would be necessary to continue with the forward momentum of the project.
+
 ## 🚧 Project Information by Parts
 
 ### ETL Methodology
