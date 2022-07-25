@@ -82,6 +82,8 @@ Once ETL completed on datasets, there were 26 features to test against mortality
 
 #### Optimizing Model
 
+### Interactive Website
+With the data cleaned, we decided to use an interactive map to showcase the results.  Different approaches have been combed through based on the various Modules that were used during this course.  These include WeatherPy and Mapping Earthquakes.  The latter is more promising with the data we have for this project.  Other modules that were looked at were UFO Sightings and Mission to Mars, in order to look at what can be done with formatting the webpage for the map.  So far, a map has been created as seen in the Live_Map folder.  Further work is needed.
 
 ---
 
