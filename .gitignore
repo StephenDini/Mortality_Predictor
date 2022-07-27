@@ -1,0 +1,6 @@
+# Ignore the config.js file.
+config.py
+config.js
+Mapping_data-checkpoint.ipynb
+.DS_Store
+.vscode

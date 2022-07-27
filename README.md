@@ -1,5 +1,8 @@
 # 💀  Mortality_Predictor
 
+### Communication
+As a group we have utilized Slack and Zoom as a means of communication.  We have reached out to both individuals and as a group in order to answer questions in a timely manor, as well as discuss goals, strategy, where we are in our portion of the project, and any future meeting times that would be necessary to continue with the forward momentum of the project.
+
 ## 🚧 Project Information by Parts
 
 ### ETL Methodology
@@ -70,6 +73,19 @@ What are the socioeconomic and cultural factors that impact mortality rates arou
 
 * Data types were checked again just to makes nothing was missed
 * The data frame was saved as a csv file to be used in machine learning
+* Specific columns were selected and saved in json and GEOJSON format files for the mapping purposes.
+
+### Machine learning model
+For the project, our group wants to see if a machine learning model can correlate socioeconomic and coltural factors to mortality rates by country. Our project used supervised machine learning, specifically the Random Forest Classifier method, given our data is labeled and we are looking for a discrete outcome. Several other methods were tested (see mortality_machine_learning and mortality_machine_learning_2 in machine learning folder). Those methods were rejected given that the balanced accuracy scores were lower than the Random Forest Classifer. We chose the balanced accuracy score as the method for measuring how well the model performed based on best practices learned in class, as well as best practice, according to [machinemastery.com](https://machinelearningmastery.com/how-to-know-if-your-machine-learning-model-has-good-performance/) for classification models.
+
+#### Data Processing
+Once ETL completed on datasets, there were 26 features to test against mortality rate. Mortality Rate columns for all years were dropped, as well as the mortality state so the model could use "mortality_state' as the y variable. Country name column was also dropped as it was not a numerical column. The original model resulted in a 70.9 balanced accuracy score.
+
+#### Optimizing Model
+
+### Interactive Website
+With the data cleaned, we decided to use an interactive map to showcase the results.  Different approaches have been combed through based on the various Modules that were used during this course.  These include WeatherPy and Mapping Earthquakes.  The latter is more promising with the data we have for this project.  Other modules that were looked at were UFO Sightings and Mission to Mars, in order to look at what can be done with formatting the webpage for the map.  So far, a map has been created as seen in the Live_Map folder.  Further work is needed.
+
 ---
 
 ## 🪣 Results
@@ -88,8 +104,8 @@ What are the socioeconomic and cultural factors that impact mortality rates arou
 
 **Mortality_Predictor** is the final project of [Stephen Dini](https://github.com/StephenDini), [Joe](https://github.com/JleMxe), [Claudia Wilkis](https://github.com/cwilkis), [Andrea Darrah](https://github.com/andrealynn8201)
 
-<a href="https://github.com/stephendini/Mortality_Predictor/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=stephendini/Mortality_Predictor" />
+<a href="https://github.com/StephenDini/Mortality_Predictor/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=StephenDini/Mortality_Predictor" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
