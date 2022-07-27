@@ -73,6 +73,7 @@ What are the socioeconomic and cultural factors that impact mortality rates arou
 
 * Data types were checked again just to makes nothing was missed
 * The data frame was saved as a csv file to be used in machine learning
+* Specific columns were selected and saved in json and GEOJSON format files for the mapping purposes.
 
 ### Machine learning model
 For the project, our group wants to see if a machine learning model can correlate socioeconomic and coltural factors to mortality rates by country. Our project used supervised machine learning, specifically the Random Forest Classifier method, given our data is labeled and we are looking for a discrete outcome. Several other methods were tested (see mortality_machine_learning and mortality_machine_learning_2 in machine learning folder). Those methods were rejected given that the balanced accuracy scores were lower than the Random Forest Classifer. We chose the balanced accuracy score as the method for measuring how well the model performed based on best practices learned in class, as well as best practice, according to [machinemastery.com](https://machinelearningmastery.com/how-to-know-if-your-machine-learning-model-has-good-performance/) for classification models.
