@@ -1,14 +1,14 @@
 # 💀  Mortality_Predictor
 
+### Question that we want to answer
+What are the socioeconomic and cultural factors that impact mortality rates around the world?
+
 ### Communication
 As a group we have utilized Slack and Zoom as a means of communication.  We have reached out to both individuals and as a group in order to answer questions in a timely manor, as well as discuss goals, strategy, where we are in our portion of the project, and any future meeting times that would be necessary to continue with the forward momentum of the project.
 
 ## 🚧 Project Information by Parts
 
 ### ETL Methodology
-
-### Question that we want to answer
-What are the socioeconomic and cultural factors that impact mortality rates around the world?
 
 #### Data Files and Sources
 * Mortality Rate by Country
@@ -32,6 +32,10 @@ What are the socioeconomic and cultural factors that impact mortality rates arou
 * Literacy Rate by Country
     * File name: literacy-rate-by-country
     * Source: https://ourworldindata.org/global-education
+* Country Coordinates
+    * Coordinates.csv
+    * Source: https://www.geeksforgeeks.org/how-to-find-longitude-and-latitude-for-a-list-of-regions-or-country-using-python/
+    
 
 #### Approach
 * Data files were first read in as dataframes
