@@ -37,47 +37,11 @@ As a group we have utilized Slack and Zoom as a means of communication.  We have
     * Source: https://www.geeksforgeeks.org/how-to-find-longitude-and-latitude-for-a-list-of-regions-or-country-using-python/
     
 
-#### Approach
-* Data files were first read in as dataframes
-* Each dataframe was then examined for content and layout
-* Some data was not available for all years
-    * Literacy
-        * Most current year available for each country was used
-    * Religion
-        * 2010 was used as the breakdown in religion over time in a country tends to be a very slow moving process
-* Cleaning of each dataframe was perform
-    * Data types were examined and modified as needed (made numeric for Machine Learning)
-    * Rows with Nulls were dropped
-    * Complex or cryptic column headings were renamed
-    * In two cases (Alcohol and Mortality Rates) the various years were not represented by columns. Rather, they were all in one column with the data spread out after in columns. This presented a problem as the data needed to be columnated. The beginning is shown below.
+#### Data Approach
+* All data files were cleaned and merged into a single data source for the machine learning model.
+* A JSON and GEoJSON data file was created for the mapping portion.
+* Some data was not available for all years so most recent data was used.
 
-![Alcohol Pre Transformation](./pictures/alcohol_dataframe_1.png)
-![Mortality Pre Transformation](./pictures/mortality_dataframe_1.png)
-
-* The dataframes were split into individual dataframes by year
-* The Year column was then dropped from each
-* The resulting dataframes were then merged back together
-* The end results were transformed dataframes usable for machine learning
-
-![Alcohol Pre Transformation](./pictures/alcohol_dataframe_2.png)
-![Mortality Pre Transformation](./pictures/mortality_dataframe_2.png)
-
-* Un-needed columns were dropped
-* Cleansed and transformed dataframes were then merged into a single data frame
-* Column mortality_rate was added to show the 2015 mortality rate data as a percentage
-* Column mortality_state was added binning denoting whether the mortality_rate is high(3), medium(2), or low(1) using breakpoints as follows:
-    *   Greater than 20% is considered high
-    *   Between 10% and 20% is considered medium
-    *   Less than 10% is considered low
-*   The above breakpoints were chosen as it produces a reasonable distribution of data between the bins.
-
-![Mortality Breakpoints](./pictures/mortality_state_breakpoints.png)
-
-
-
-* Data types were checked again just to makes nothing was missed
-* The data frame was saved as a csv file to be used in machine learning
-* Specific columns were selected and saved in json and GEOJSON format files for the mapping purposes.
 
 ### Machine learning model
 For the project, our group wants to see if a machine learning model can correlate socioeconomic and coltural factors to mortality rates by country. Our project used supervised machine learning, specifically the Random Forest Classifier method, given our data is labeled and we are looking for a discrete outcome. Several other methods were tested (see mortality_machine_learning and mortality_machine_learning_2 in machine learning folder). Those methods were rejected given that the balanced accuracy scores were lower than the Random Forest Classifer. We chose the balanced accuracy score as the method for measuring how well the model performed based on best practices learned in class, as well as best practice, according to [machinemastery.com](https://machinelearningmastery.com/how-to-know-if-your-machine-learning-model-has-good-performance/) for classification models.
