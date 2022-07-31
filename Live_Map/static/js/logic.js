@@ -29,7 +29,7 @@ let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{
 // Create the map object with center, zoom level and default layer.
 let map = L.map('mapid', {
 	center: [0, 0],
-	zoom: 3,
+	zoom: 2,
 	layers: [streets]
 });
 
@@ -43,12 +43,16 @@ let baseMaps = {
   // Add a 2nd layer group for the mortality data.
   let literacyRate = new L.LayerGroup();
   let mortalityRate = new L.LayerGroup();
+  let gdp2015 = new L.LayerGroup();
+  let alcohol2015 = new L.LayerGroup();
   
   
   // Add a reference to the mortality group to the overlays object.
   let overlays = {
     'Literacy': literacyRate,
-    'Mortality Rate': mortalityRate  
+    'Mortality Rate': mortalityRate,
+	'GDP Per Capita 2015': gdp2015,
+	'Alcohol 2015': alcohol2015 
   };
   
   // Then we add a control to the map that will allow the user to change which
@@ -107,7 +111,40 @@ let baseMaps = {
       	}).addTo(mortalityRate);
       // Then we add the literacy layer to our map.
       mortalityRate.addTo(map);
+	
+		// Here we create a legend control object.
+	let legend = L.control({
+	position: "bottomright"
+	});
+  
+	// Then add all the details for the legend
+	legend.onAdd = function() {
+	  let div = L.DomUtil.create("div", "info legend");
+  
+	  const mortalities = [0, 10, 22];
+	  const colors = [
+		"#2f7d33",
+		"#e8c217",
+		"#ea2c2c"
+		];
+  
+	  // Looping through our intervals to generate a label with a colored square for each interval.
+	  for (var i = 0; i < mortalities.length; i++) {
+		console.log(colors[i]);
+		div.innerHTML +=
+		  "<i style='background: " + colors[i] + "'></i> " +
+		  mortalities[i] + (mortalities[i + 1] ? "&ndash;" + mortalities[i + 1] + "<br>" : "+");
+		}
+	  return div;
+	};
+  
+	// add legend to the map.
+	legend.addTo(map);
+
+
   });
+
+  
 ////////////////////////////////////////////////////////////////////      
 
     // Retrieve the literacy data
@@ -172,7 +209,120 @@ let baseMaps = {
    	literacyRate.addTo(map);
     // Close the braces and parentheses for the major earthquake data.
   });
+/////////////////////////////////////////////////////////////////////////////
+// Retrieve the country GeoJSON data.
+d3.json('../cleaned_data/map.geoJSON').then(function(data) {
+    function styleInfo(features) {
+		return {
+		  opacity: 1,
+		  fillOpacity: .6,
+		  fillColor: getColor(features.properties.gdp_per_capita_2015),
+		  color: "#000000",
+		  radius: getRadius(10),
+		  stroke: true,
+		  weight: 0.5
+		};
+	  }
 	
+	// This function determines the color of the marker based on the mortality state of the country
+	function getColor(gdp) {
+	  if (gdp >= 40000 ) {
+		return "#209618";
+	  }
+	  if (gdp >= 25000) {
+		return "#ebe41c";
+	  }
+	  if (gdp >= 10000) {
+		return "#ed7d0c"
+	  }
+	  return "#ea2c2c";
+    }
+
+    //This function determines the radius of the country marker based on its magnitude.
+	//Countries with a mortalitiy stae of 0 were being plotted with the wrong radius.
+	function getRadius(gdp) {
+        if (gdp === 0) {
+          return 1;
+        }
+        return gdp;
+      }
+    
+      // Creating a GeoJSON layer with the retrieved data.
+      L.geoJson(data,{
+          // We turn each feature into a circleMarker on the map.
+        pointToLayer: function(feature, latlng) {
+			console.log(feature);
+            	return L.circleMarker(latlng);
+            	},
+        // We set the style for each circleMarker using our styleInfo function.
+      	style: styleInfo,
+       // We create a popup for each circleMarker to display the literacy and location 
+       //  after the marker has been created and styled.
+        onEachFeature: function(feature, layer) {
+        console.log(feature)
+		layer.bindPopup("Country: " + feature.properties.Country + "<br>GDP per Capita 2015: " + feature.properties.gdp_per_capita_2015);
+        }
+      	}).addTo(gdp2015);
+      // Then we add the literacy layer to our map.
+      gdp2015.addTo(map);
+  });
+/////////////////////////////////////////////////////////////////////////////
+// Retrieve the country GeoJSON data.
+d3.json('../cleaned_data/map.geoJSON').then(function(data) {
+    function styleInfo(features) {
+		return {
+		  opacity: 1,
+		  fillOpacity: .6,
+		  fillColor: getColor(features.properties.alcohol_rate_2015),
+		  color: "#000000",
+		  radius: getRadius(features.properties.alcohol_rate_2015)*1.5,
+		  stroke: true,
+		  weight: 0.5
+		};
+	  }
+	
+	// This function determines the color of the marker based on the mortality state of the country
+	function getColor(alcohol) {
+	  if (alcohol >= 15 ) {
+		return "#0c57c7";
+	  }
+	  if (alcohol >= 10) {
+		return "#0ddb82";
+	  }
+	  if (alcohol >= 5) {
+		return "#fc9312 "
+	  }
+	  return "#b013a0";
+    }
+
+    //This function determines the radius of the country marker based on its magnitude.
+	//Countries with a mortalitiy stae of 0 were being plotted with the wrong radius.
+	function getRadius(alcohol) {
+        if (alcohol === 0) {
+          return 1;
+        }
+        return alcohol;
+      }
+    
+      // Creating a GeoJSON layer with the retrieved data.
+      L.geoJson(data,{
+          // We turn each feature into a circleMarker on the map.
+        pointToLayer: function(feature, latlng) {
+			console.log(feature);
+            	return L.circleMarker(latlng);
+            	},
+        // We set the style for each circleMarker using our styleInfo function.
+      	style: styleInfo,
+       // We create a popup for each circleMarker to display the literacy and location 
+       //  after the marker has been created and styled.
+        onEachFeature: function(feature, layer) {
+        console.log(feature)
+		layer.bindPopup("Country: " + feature.properties.Country + "<br>GDP per Capita 2015: " + feature.properties.alcohol_rate_2015);
+        }
+      	}).addTo(alcohol2015);
+      // Then we add the literacy layer to our map.
+      alcohol2015.addTo(map);
+  });
   
 // 	// // Here we create a legend control object.
 // 	// let legend = L.control({
@@ -183,12 +333,11 @@ let baseMaps = {
 // 	// legend.onAdd = function() {
 // 	//   let div = L.DomUtil.create("div", "info legend");
   
-// 	//   const mortalities = [0, 1, 2, 3];
+// 	//   const mortalities = [>= 20%, >= 10%, >=0];
 // 	//   const colors = [
-// 	// 	"#98ee00",
-// 	// 	"#d4ee00",
-// 	// 	"#ee9c00",
-// 	// 	"#ea2c2c"
+// 	// 	"#ea2c2c",
+// 	// 	"#e8c217",
+// 	// 	"#2f7d33"
 // 	// 	];
   
 // 	//   // Looping through our intervals to generate a label with a colored square for each interval.
