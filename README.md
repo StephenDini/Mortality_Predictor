@@ -10,33 +10,6 @@ As a group we have utilized Slack and Zoom as a means of communication.  We have
 
 ### ETL Methodology
 
-#### Data Files and Sources
-* Mortality Rate by Country
-    * File name: 1855dc1a-df9c-4bdc-bab6-21f17897cebc.csv
-    * Source: https://www.who.int/data/gho/data/indicators/indicator-details/GHO/adult-mortality-rate-(probability-of-dying-between-15-and-60-years-per-1000-population)
-* Alcohol Consumption by Country
-    * File name: alcohol-consumption.csv
-    * Source: https://www.kaggle.com/datasets/sveneschlbeck/alcohol-consumption-per-capita-year-and-country
-* Population Growth Rates by Country
-    * File name: API_SP.POP.GROW_DS2_en_csv_v2_4251293.csv
-    * Source: https://data.worldbank.org/indicator/SP.POP.GROW
-* GDP by Country
-    * File name: API_NY.GDP.MKTP.CD_DS2_en_csv_v2_4251000.csv
-    * Source: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
-* GDP Per Capita by Country
-    * File name: API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4251004.csv
-    * https://data.worldbank.org/indicator/NY.GDP.PCAP.CD
-* Religion breakdown by Country
-    * File name: Religious_Composition_by_Country_2010-2050.xlsx
-    * Source: https://www.pewresearch.org/religion/2015/04/02/religious-projection-table/
-* Literacy Rate by Country
-    * File name: literacy-rate-by-country
-    * Source: https://ourworldindata.org/global-education
-* Country Coordinates
-    * Coordinates.csv
-    * Source: https://www.geeksforgeeks.org/how-to-find-longitude-and-latitude-for-a-list-of-regions-or-country-using-python/
-    
-
 #### Data Approach
 * All data files were cleaned and merged into a single data source for the machine learning model.
 * A JSON and GEoJSON data file was created for the mapping portion.
@@ -82,3 +55,28 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 ## 📌 Sources
 
+* Mortality Rate by Country
+  * File name: 1855dc1a-df9c-4bdc-bab6-21f17897cebc.csv
+  * Source: https://www.who.int/data/gho/data/indicators/indicator-details/GHO/adult-mortality-rate-(probability-of-dying-between-15-and-60-years-per-1000-population)
+* Alcohol Consumption by Country
+  * File name: alcohol-consumption.csv
+  * Source: https://www.kaggle.com/datasets/sveneschlbeck/alcohol-consumption-per-capita-year-and-country
+* Population Growth Rates by Country
+  * File name: API_SP.POP.GROW_DS2_en_csv_v2_4251293.csv
+  * Source: https://data.worldbank.org/indicator/SP.POP.GROW
+* GDP by Country
+  * File name: API_NY.GDP.MKTP.CD_DS2_en_csv_v2_4251000.csv
+  * Source: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
+* GDP Per Capita by Country
+  * File name: API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4251004.csv
+  * https://data.worldbank.org/indicator/NY.GDP.PCAP.CD
+* Religion breakdown by Country
+  * File name: Religious_Composition_by_Country_2010-2050.xlsx
+  * Source: https://www.pewresearch.org/religion/2015/04/02/religious-projection-table/
+* Literacy Rate by Country
+  * File name: literacy-rate-by-country
+  * Source: https://ourworldindata.org/global-education
+* Country Coordinates
+  * Coordinates.csv
+  * Source: https://www.geeksforgeeks.org/how-to-find-longitude-and-latitude-for-a-list-of-regions-or-country-using-python/
+    
