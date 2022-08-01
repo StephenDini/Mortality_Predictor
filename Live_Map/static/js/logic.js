@@ -171,15 +171,15 @@ let baseMaps = {
   
 	  function getColor(rate) {
 		if (rate >= 90) {
-		  return "#07b89d";
+		  return "#faf0ca";
 		}
 		if (rate >= 80) {
-		  return "#f07e06";
+		  return "#f4d35e";
 		}
 		if (rate>= 70) {
-		  return "#f00c76";
+		  return "#ee964b";
 		}
-		return "#5c0cf0";
+		return "#f92427";
 	  }
 
 
@@ -215,7 +215,7 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
     function styleInfo(features) {
 		return {
 		  opacity: 1,
-		  fillOpacity: .6,
+		  fillOpacity: .8,
 		  fillColor: getColor(features.properties.gdp_per_capita_2015),
 		  color: "#000000",
 		  radius: getRadius(10),
@@ -227,15 +227,15 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
 	// This function determines the color of the marker based on the mortality state of the country
 	function getColor(gdp) {
 	  if (gdp >= 40000 ) {
-		return "#209618";
+		return "#fcfffd";
 	  }
 	  if (gdp >= 25000) {
-		return "#ebe41c";
+		return "#c0c0fb";
 	  }
 	  if (gdp >= 10000) {
-		return "#ed7d0c"
+		return "#64b4ac"
 	  }
-	  return "#ea2c2c";
+	  return "#5d73aa";
     }
 
     //This function determines the radius of the country marker based on its magnitude.
@@ -272,7 +272,7 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
     function styleInfo(features) {
 		return {
 		  opacity: 1,
-		  fillOpacity: .6,
+		  fillOpacity: .8,
 		  fillColor: getColor(features.properties.alcohol_rate_2015),
 		  color: "#000000",
 		  radius: getRadius(features.properties.alcohol_rate_2015)*1.5,
@@ -283,16 +283,16 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
 	
 	// This function determines the color of the marker based on the mortality state of the country
 	function getColor(alcohol) {
-	  if (alcohol >= 15 ) {
-		return "#0c57c7";
+	  if (alcohol >= 12 ) {
+		return "#e6ebe0";
 	  }
-	  if (alcohol >= 10) {
-		return "#0ddb82";
+	  if (alcohol >= 8) {
+		return "#9bc1bc";
 	  }
-	  if (alcohol >= 5) {
-		return "#fc9312 "
+	  if (alcohol >= 4) {
+		return "#ed6a5a"
 	  }
-	  return "#b013a0";
+	  return "#5d576b";
     }
 
     //This function determines the radius of the country marker based on its magnitude.
@@ -317,7 +317,7 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
        //  after the marker has been created and styled.
         onEachFeature: function(feature, layer) {
         console.log(feature)
-		layer.bindPopup("Country: " + feature.properties.Country + "<br>GDP per Capita 2015: " + feature.properties.alcohol_rate_2015);
+		layer.bindPopup("Country: " + feature.properties.Country + "<br>Alcohol Rate 2015: " + feature.properties.alcohol_rate_2015);
         }
       	}).addTo(alcohol2015);
       // Then we add the literacy layer to our map.
