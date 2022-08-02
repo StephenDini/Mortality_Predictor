@@ -925,8 +925,8 @@
       "type": "Feature",
       "properties": {
         "Country": "Georgia",
-        "Longitude": -83.1137366,
-        "Latitude": 32.3293809,
+        "Longitude": 42.3154,
+        "Latitude": 43.3569,
         "Literacy_Rate": 99.7,
         "mortality_rate": 15.64,
         "mortality_state": 2,
@@ -936,8 +936,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.1137366,
-          32.3293809
+          42.3154,
+          43.3569
         ]
       }
     },
