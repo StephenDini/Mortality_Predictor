@@ -44,7 +44,7 @@ the project, and any future meeting times that would be necessary to continue wi
 #### Data Approach
 
 * All data files were cleaned and merged into a single data source for the machine learning model.
-* A JSON and GEoJSON data file was created for the mapping portion.
+* A GEoJSON data file was created for the mapping portion.
 * Some data was not available for all years so most recent data was used.
 
 ### Machine learning model
