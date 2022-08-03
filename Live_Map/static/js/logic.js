@@ -1,12 +1,8 @@
 // Add console.log to check to see if our code is working.
 console.log("Working");
 
-// // Get data from cities.js
-// let countryData = countries;
-// console.log(countryData)
-
 // We create the tile layer that will be the background of our map.
-let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+let street = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
 	maxZoom: 18,
 	accessToken: API_KEY
@@ -30,38 +26,44 @@ let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{
 let map = L.map('mapid', {
 	center: [0, 0],
 	zoom: 2,
-	layers: [streets]
+	layers: [street]
 });
+
+
 
 // Create a base layer that holds all three maps.
 let baseMaps = {
-    "Streets": streets,
-    "Satellite": satelliteStreets,
-    "Dark": dark
+	"Streets": street,
+	"Satellite": satelliteStreets,
+	"Dark": dark
   };
-  console.log(baseMaps)
-  // Add a 2nd layer group for the mortality data.
-  let literacyRate = new L.LayerGroup();
+
+
   let mortalityRate = new L.LayerGroup();
+  let literacyRate = new L.LayerGroup();
   let gdp2015 = new L.LayerGroup();
   let alcohol2015 = new L.LayerGroup();
   
-  
-  // Add a reference to the mortality group to the overlays object.
+ 
   let overlays = {
-    'Literacy': literacyRate,
-    'Mortality Rate': mortalityRate,
-	'GDP Per Capita 2015': gdp2015,
-	'Alcohol 2015': alcohol2015 
-  };
-  
-  // Then we add a control to the map that will allow the user to change which
-  // layers are visible.
-  L.control.layers(baseMaps, overlays).addTo(map);
-  
-  // Retrieve the country GeoJSON data.
+	"Mortality Rate": mortalityRate,
+	"Literacy Rate": literacyRate,
+	"GDP per Capita 2015": gdp2015,
+    "Alcohol Rate 2015": alcohol2015
+};
+
+// L.control.layers(baseMaps, overlays).addTo(map);
+
+var layerControl = new L.Control.Layers(null, {
+    "Mortality Rate": mortalityRate,
+	"Literacy Rate": literacyRate,
+	"GDP per Capita 2015": gdp2015,
+    "Alcohol Rate 2015": alcohol2015
+}).addTo(map);
+
+// Retrieve the country GeoJSON data.
   d3.json('../cleaned_data/map.geoJSON').then(function(data) {
-    function styleInfo(features) {
+	function styleInfo(features) {
 		return {
 		  opacity: 1,
 		  fillOpacity: .6,
@@ -81,7 +83,7 @@ let baseMaps = {
 	  if (mortality >= 10) {
 		return "#e8c217";
 	  }
-	  return "#2f7d33";
+	  return "#60f205";
     }
 
     //This function determines the radius of the country marker based on its magnitude.
@@ -92,7 +94,8 @@ let baseMaps = {
         }
         return mortality;
       }
-    
+	  
+	  
       // Creating a GeoJSON layer with the retrieved data.
       L.geoJson(data,{
           // We turn each feature into a circleMarker on the map.
@@ -107,44 +110,15 @@ let baseMaps = {
         onEachFeature: function(feature, layer) {
         console.log(feature)
 		layer.bindPopup("Country: " + feature.properties.Country + "<br>Mortality Rate: " + feature.properties.mortality_rate);
-        }
-      	}).addTo(mortalityRate);
+		}
+	}).addTo(mortalityRate);
       // Then we add the literacy layer to our map.
       mortalityRate.addTo(map);
 	
-		// Here we create a legend control object.
-	let legend = L.control({
-	position: "bottomright"
-	});
-  
-	// Then add all the details for the legend
-	legend.onAdd = function() {
-	  let div = L.DomUtil.create("div", "info legend");
-  
-	  const mortalities = [0, 10, 22];
-	  const colors = [
-		"#2f7d33",
-		"#e8c217",
-		"#ea2c2c"
-		];
-  
-	  // Looping through our intervals to generate a label with a colored square for each interval.
-	  for (var i = 0; i < mortalities.length; i++) {
-		console.log(colors[i]);
-		div.innerHTML +=
-		  "<i style='background: " + colors[i] + "'></i> " +
-		  mortalities[i] + (mortalities[i + 1] ? "&ndash;" + mortalities[i + 1] + "<br>" : "+");
-		}
-	  return div;
-	};
-  
-	// add legend to the map.
-	legend.addTo(map);
+});
 
 
-  });
 
-  
 ////////////////////////////////////////////////////////////////////      
 
     // Retrieve the literacy data
@@ -171,15 +145,15 @@ let baseMaps = {
   
 	  function getColor(rate) {
 		if (rate >= 90) {
-		  return "#faf0ca";
+		  return "#60f205";
 		}
 		if (rate >= 80) {
-		  return "#f4d35e";
+		  return "#e8c217";
 		}
 		if (rate>= 70) {
-		  return "#ee964b";
+		  return "#f26005";
 		}
-		return "#f92427";
+		return "#ea2c2c";
 	  }
 
 
@@ -206,9 +180,10 @@ let baseMaps = {
       	}
     	}).addTo(literacyRate);
     	// Add the major earthquakes layer to the map.
-   	literacyRate.addTo(map);
+   	// literacyRate.addTo(map);
     // Close the braces and parentheses for the major earthquake data.
   });
+
 /////////////////////////////////////////////////////////////////////////////
 // Retrieve the country GeoJSON data.
 d3.json('../cleaned_data/map.geoJSON').then(function(data) {
@@ -227,15 +202,15 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
 	// This function determines the color of the marker based on the mortality state of the country
 	function getColor(gdp) {
 	  if (gdp >= 40000 ) {
-		return "#fcfffd";
+		return "#60f205";
 	  }
 	  if (gdp >= 25000) {
-		return "#c0c0fb";
+		return "#e8c217";
 	  }
 	  if (gdp >= 10000) {
-		return "#64b4ac"
+		return "#f26005"
 	  }
-	  return "#5d73aa";
+	  return "#ea2c2c";
     }
 
     //This function determines the radius of the country marker based on its magnitude.
@@ -264,7 +239,7 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
         }
       	}).addTo(gdp2015);
       // Then we add the literacy layer to our map.
-      gdp2015.addTo(map);
+    //   gdp2015.addTo(map);
   });
 /////////////////////////////////////////////////////////////////////////////
 // Retrieve the country GeoJSON data.
@@ -292,7 +267,7 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
 	  if (alcohol >= 4) {
 		return "#ed6a5a"
 	  }
-	  return "#5d576b";
+	  return "#8c5aa3";
     }
 
     //This function determines the radius of the country marker based on its magnitude.
@@ -321,53 +296,159 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
         }
       	}).addTo(alcohol2015);
       // Then we add the literacy layer to our map.
-      alcohol2015.addTo(map);
+    //   alcohol2015.addTo(map);
   });
   
-// 	// // Here we create a legend control object.
-// 	// let legend = L.control({
-// 	// position: "bottomright"
-// 	// });
-  
-// 	// // Then add all the details for the legend
-// 	// legend.onAdd = function() {
-// 	//   let div = L.DomUtil.create("div", "info legend");
-  
-// 	//   const mortalities = [>= 20%, >= 10%, >=0];
-// 	//   const colors = [
-// 	// 	"#ea2c2c",
-// 	// 	"#e8c217",
-// 	// 	"#2f7d33"
-// 	// 	];
-  
-// 	//   // Looping through our intervals to generate a label with a colored square for each interval.
-// 	//   for (var i = 0; i < mortalities.length; i++) {
-// 	// 	console.log(colors[i]);
-// 	// 	div.innerHTML +=
-// 	// 	  "<i style='background: " + colors[i] + "'></i> " +
-// 	// 	  mortalities[i] + (mortalities[i + 1] ? "&ndash;" + mortalities[i + 1] + "<br>" : "+");
-// 	// 	}
-// 	//   return div;
-// 	// };
-  
-// 	// // add legend to the map.
-// 	// legend.addTo(map);
-  
-	
-// 	// Use d3.json to make a call to get our Tectonic Plate geoJSON data.
-	
-// 	// d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json").then(function(tdata) {
-// 	//   L.geoJson(tdata,{
-// 	// 	style: styleInfo
-// 	//   }).addTo(tectonicPlates);
+	// Here we create a legend control object.
+	let legend = L.control({
+		position: "bottomright"
+		});
 	  
-// 	//   tectonicPlates.addTo(map);
-// 	//   // set style for tectonic plate overlay
-// 	//   function styleInfo(feature) {
-// 	// 	return {
-// 	// 	  color: "#c1502e",
-// 	// 	  weight: 1.5
-// 	// 	};
-// 	//  }
-// 	//});
-//   })
+		// Then add all the details for the legend
+		legend.onAdd = function() {
+		  let div = L.DomUtil.create("div", "info legend");
+	  
+		  const mortalityRate = [0, 10, 20];
+		  const colors = [
+			"#ea2c2c",
+			"#e8c217",
+			"#60f205"
+			];
+	  
+		  // Looping through our intervals to generate a label with a colored square for each interval.
+		  for (var i = 0; i < mortalityRate.length; i++) {
+			console.log(colors[i]);
+			div.innerHTML +=
+			  "<i style='background: " + colors[i] + "'></i> " +
+			  mortalityRate[i] + (mortalityRate[i + 1] ? "&ndash;" + mortalityRate[i + 1] + "<br>" : "+");
+			}
+		  return div;
+		};
+	  
+		// add legend to the map.
+		map.addControl(legend);
+
+		let legend2 = L.control({
+			position: "bottomright"
+			});
+		  
+			// Then add all the details for the legend
+			legend2.onAdd = function() {
+			  let div = L.DomUtil.create("div", "info legend");
+		  
+			  const literacyRate = [0, 70, 80, 90, 100];
+			  const colors = [
+				"#f92427",
+				"#e3822d",
+				"#e8c217",
+				"#60f205"
+				];
+		  
+			  // Looping through our intervals to generate a label with a colored square for each interval.
+			  for (var i = 0; i < (literacyRate.length - 1); i++) {
+				console.log(colors[i]);
+				div.innerHTML +=
+				  "<i style='background: " + colors[i] + "'></i> " +
+				  literacyRate[i] + (literacyRate[i + 1] ? "&ndash;" + literacyRate[i + 1] + "<br>" : "+");
+				}
+			  return div;
+			};
+
+		    // add legend to the map.
+			// legend2.addTo(map);
+			map.addControl(legend2);
+
+			let legend3 = L.control({
+				position: "bottomright"
+				});
+			  
+				// Then add all the details for the legend
+				legend3.onAdd = function() {
+				  let div = L.DomUtil.create("div", "info legend");
+			  
+				  const gdp2015 = [0, 10000, 25000, 40000];
+				  const colors = [
+					"#f92427",
+					"#e3822d",
+					"#e8c217",
+					"#60f205"
+					];
+			  
+				  // Looping through our intervals to generate a label with a colored square for each interval.
+				  for (var i = 0; i < gdp2015.length; i++) {
+					console.log(colors[i]);
+					div.innerHTML +=
+					  "<i style='background: " + colors[i] + "'></i> " +
+					  gdp2015[i] + (gdp2015[i + 1] ? "&ndash;" + gdp2015[i + 1] + "<br>" : "+");
+					}
+				  return div;
+				};
+			  
+				// add legend to the map.
+				// legend3.addTo(map);
+				map.addControl(legend3);
+
+				let legend4 = L.control({
+					position: "bottomright"
+					});
+				  
+					// Then add all the details for the legend
+					legend4.onAdd = function() {
+					  let div = L.DomUtil.create("div", "info legend");
+				  
+					  const alcohol2015 = [0, 4, 8, 12];
+					  const colors = [
+						"#e6ebe0",
+						"#9bc1bc",
+						"#ed6a5a",
+						"#8c5aa3"
+						];
+						
+					  // Looping through our intervals to generate a label with a colored square for each interval.
+					  for (var i = 0; i < alcohol2015.length; i++) {
+						console.log(colors[i]);
+						div.innerHTML +=
+						  "<i style='background: " + colors[i] + "'></i> " +
+						  alcohol2015[i] + (alcohol2015[i + 1] ? "&ndash;" + alcohol2015[i + 1] + "<br>" : "+");
+						}
+					  return div;
+					};
+				  
+					// add legend to the map.
+					// legend4.addTo(map);
+					map.addControl(legend4);
+
+	// var baseMap = {
+	// 	"Mortality Rate": baseMap1,
+	// 	"Literacy Percentage": baseMap2,
+	// 	"GDP per Capita 2015": baseMap3,
+	// 	"Alcohol Percentage": baseMap4
+	// 	};
+						   
+	// 	L.control.layers(baseMap).addTo(map);
+			
+// Add and remove layers
+// map.on('click', function (eventLayer) {
+	// Switch to the Permafrost legend...
+	// if (map.hasLayer(legend)) {
+	// 	map.removeControl(legend2);
+	// 	map.removeControl(legend3);
+	// 	map.removeControl(legend4);
+	// 	map.addControl(legend);
+	// } else if (map.hasLayer(legend2)) {
+	// 	map.removeControl(legend);
+	// 	map.removeControl(legend3);
+	// 	map.removeControl(legend4);
+	// 	map.addControl(legend2);
+	// }
+	// else 
+	// { // Or switch to the treeline legend...
+	// 	map.removeControl(legend2);
+	// 	map.removeControl(legend);
+	// 	map.removeControl(legend3);
+	// 	map.removeControl(legend4);
+	// }
+// 	console.log("FIRED")
+// });
+			
+	
