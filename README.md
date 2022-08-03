@@ -19,6 +19,7 @@ the project, and any future meeting times that would be necessary to continue wi
 * Alcohol Consumption by Country
 * Population Growth Rates by Country
 * GDP Per Capita by Country
+* GDP by Country
 * Religion breakdown by Country
 * Literacy Rate by Country
 * Country Coordinates
