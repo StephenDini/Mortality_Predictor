@@ -12,12 +12,23 @@ the project, and any future meeting times that would be necessary to continue wi
 
 ## 🚧 Project Information by Parts
 
-### ETL Methodology
+## Extract/Transform/Load
+
+### Data Used
+* Mortality Rate by Country
+* Alcohol Consumption by Country
+* Population Growth Rates by Country
+* GDP Per Capita by Country
+* GDP by Country
+* Religion breakdown by Country
+* Literacy Rate by Country
+* Country Coordinates
+
 
 #### Data Approach
 
 * All data files were cleaned and merged into a single data source for the machine learning model.
-* A JSON and GEoJSON data file was created for the mapping portion.
+* A GEoJSON data file was created for the mapping portion.
 * Some data was not available for all years so most recent data was used.
 
 ### Machine learning model
