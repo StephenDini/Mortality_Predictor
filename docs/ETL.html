@@ -34,14 +34,17 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.html#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#ETL">ETL</a>
+          <a class="nav-link" href="index.html#sources">Sources</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="ETL.html">ETL</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -57,49 +60,27 @@
   </nav>
 <!-- Add your site or application content here -->
   <div class="container">
-
-    <div class="row">
-      <div class="col-md-12 jumbotron jumbotron-fluid text-center">
-        <h1>Mortality broken down by Religion</h1>
-        <p id="mortality"></p>
+    <div class="card text-center">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="true" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
       </div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-md-3">
-        <div class="card">
-          <h5>Test Subject ID No.:</h5>
-          <!-- <select id="selDataset"></select> -->
-          <label for="selDataset" class="sr-only"></label><select id="selDataset"
-                                                                  onchange="optionChanged(this.value)"></select>
-        </div>
-        <div class="card">
-          <div class="card-header">
-            <h3 class="card-title">Demographic Info</h3>
-          </div>
-          <div id="sample-metadata" class="card-body"></div>
-        </div>
-      </div>
-      <div class="col">
-        <div id="bar-plot" class="font_choice"></div>
-      </div>
-      <!--      <div class="col">-->
-      <!--        <div id="gauge-plot" class="font_choice"></div>-->
-      <!--      </div>-->
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="bubble-plot" class="font_choice"></div>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<!--  <script>-->
-<!--    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;-->
-<!--    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')-->
-<!--  </script>-->
-<!--  <script src="https://www.google-analytics.com/analytics.js" async></script>-->
 
   <!--  Footer  -->
   <footer class="bg-light text-center text-lg-start" style="margin-top: 20px;">
