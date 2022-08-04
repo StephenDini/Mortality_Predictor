@@ -1,6 +1,8 @@
 // Add console.log to check to see if our code is working.
 console.log("Working");
 
+alert('Select the layer icon in the top right corner to interact with the map.');
+
 // We create the tile layer that will be the background of our map.
 let street = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -228,15 +230,15 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
 	
 	function getColor(alcohol) {
 	  	if (alcohol >= 12 ) {
-			return "#e6ebe0";
+			return "#f92427";
 	  	}
 	  	if (alcohol >= 8) {
-			return "#9bc1bc";
+			return "#e3822d";
 	  	}
 	  	if (alcohol >= 4) {
-			return "#ed6a5a"
+			return "#e8c217";
 	  	}
-	  		return "#8c5aa3";
+	  		return "#60f205"
     }
 
     function getRadius(alcohol) {
@@ -308,8 +310,6 @@ legend2.onAdd = function() {
 		
 	legend2.addTo(map);
 
-
-
 			
 // Alcohol Legend
 var legend3 = L.control({position: "bottomright"});
@@ -335,7 +335,7 @@ legend3.onAdd = function() {
 legend3.addTo(map);
 
 // GDP Legend	
-var legend4 = L.control({position: "bottomright"});
+var legend4 = L.control({position: 'bottomright'});
 legend4.onAdd = function() {
 	var div = L.DomUtil.create("div", "info legend");
 		const gdp2015 = [0, 10000, 25000, 40000];
