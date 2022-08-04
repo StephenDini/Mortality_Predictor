@@ -4,21 +4,7 @@ console.log("Working");
 alert('Select the layer icon in the top right corner to interact with the map.');
 
 // We create the tile layer that will be the background of our map.
-let street = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
-	maxZoom: 18,
-	accessToken: API_KEY
-});
-
-// We create the second tile layer that will be the background of our map.
-let satelliteStreets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
-	maxZoom: 18,
-	accessToken: API_KEY
-});
-
-// We create the third tile layer that will be the background of our map.
-let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
 	maxZoom: 18,
 	accessToken: API_KEY
@@ -28,18 +14,8 @@ let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{
 let map = L.map('mapid', {
 	center: [0, 0],
 	zoom: 2,
-	layers: [street]
+	layers: [streets]
 });
-
-
-
-// Create a base layer that holds all three maps.
-let baseMaps = {
-	"Streets": street,
-	"Satellite": satelliteStreets,
-	"Dark": dark
-  };
-
 
 let mortalityRate = new L.LayerGroup();
 let literacyRate = new L.LayerGroup();
@@ -85,7 +61,6 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
 	  		return "#60f205";
     }
     //This function determines the radius of the country marker based on its magnitude.
-	//Countries with a mortalitiy stae of 0 were being plotted with the wrong radius.
 	function getRadius(mortality) {
         if (mortality === 0) {
          	 return 1;
@@ -101,14 +76,14 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
             	},
         // We set the style for each circleMarker using our styleInfo function.
       	style: styleInfo,
-        // We create a popup for each circleMarker to display the literacy and location 
+        // We create a popup for each circleMarker to display the Mortality Rate and Country 
         //  after the marker has been created and styled.
         onEachFeature: function(feature, layer) {
         console.log(feature)
 		layer.bindPopup("Country: " + feature.properties.Country + "<br>Mortality Rate: " + feature.properties.mortality_rate);
 		}
 	}).addTo(mortalityRate);
-    // Then we add the literacy layer to our map.
+    // Then we add the mortality layer to our map.
     mortalityRate.addTo(map);
 });
 
