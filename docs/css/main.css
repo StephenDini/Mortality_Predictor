@@ -459,10 +459,16 @@ body {
 }
 
 .card-header{
-  color: White !important;
-  background-color: cornflowerblue !important;
 }
 
 .navbar-custom{
   background-color: #706656 !important;
+}
+
+.left-align{
+  padding: 3%;
+  text-align: left;
+}
+.left{
+  text-align: left;
 }
