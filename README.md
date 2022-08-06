@@ -25,19 +25,19 @@ the project, and any future meeting times that would be necessary to continue wi
 * Country Coordinates
 
 
-#### Data Approach
+### Data Approach
 
 * All data files were cleaned and merged into a single data source for the machine learning model.
-* A GEoJSON data file was created for the mapping portion.
+* A GeoJSON data file was created for the mapping portion.
 * Some data was not available for all years so most recent data was used.
 
-### Machine learning model
+## Machine learning model
 
-For the project, our group wants to see if a machine learning model can correlate socioeconomic and coltural factors to
+For the project, our group wants to see if a machine learning model can correlate socioeconomic and cultural factors to
 mortality rates by country. Our project used supervised machine learning, specifically the Random Forest Classifier
 method, given our data is labeled and we are looking for a discrete outcome. Several other methods were tested (see
 mortality_machine_learning and mortality_machine_learning_2 in machine learning folder). Those methods were rejected
-given that the balanced accuracy scores were lower than the Random Forest Classifer. We chose the balanced accuracy
+given that the balanced accuracy scores were lower than the Random Forest Classifier. We chose the balanced accuracy
 score as the method for measuring how well the model performed based on best practices learned in class, as well as best
 practice, according
 to [machinemastery.com](https://machinelearningmastery.com/how-to-know-if-your-machine-learning-model-has-good-performance/)
@@ -55,13 +55,13 @@ Using information and code found on machinelearningmastery.com, we optimized the
 
 ![Classification report](https://github.com/StephenDini/Mortality_Predictor/blob/main/pictures/bagging_classification_report.png)
 
-### Interactive Website
+## Interactive Website
 
 The mockup for the site was created using paint and gives the overall flow of the site for us to follow.
 The inspiration for the mockup was taken from the belly button module.
 The website will consist of one main landing page and various other pages for chats and maps.
 The landing page will layout the information about the project and a blurb the team behind the project.
-The website is hosted on github pages utilizing [Bootstrap](https://getbootstrap.com/) and Javascript.
+The website is hosted on GitHub pages utilizing [Bootstrap](https://getbootstrap.com/) and Javascript.
 With the data cleaned, we decided to use an interactive map to showcase the results.
 Different approaches have been combed through based on the various Modules that were used during this course.
 These include WeatherPy and Mapping Earthquakes.
@@ -83,26 +83,27 @@ Further work is needed.
 
 ## 📝 Extra Details
 
-### Programs used
+## Programs used
 
-#### IDE
+### IDE
 
 - [Webstorm](https://www.jetbrains.com/webstorm/)
 
-#### Web Apps
+### Web Apps
 
 - [Jupyter Notebook](https://jupyter.org/)
 
-#### Text Processors
+### Text Processors
 
 - [Sublime Text](https://www.sublimetext.com/)
 - [VS Code](https://code.visualstudio.com/)
 
-#### Drinks Consumed
+## Drinks Consumed
 
 - 2 bottles of SideCart
 - 1 bottle of Mead
-- X Black Russians
+- 4 Black Russians
+- 7 Old Fashions (Monkey Shoulder Blended Scotch used)
 - 1 bottle of Prosecco
 
 ---
@@ -110,7 +111,7 @@ Further work is needed.
 ## 💻 Credits
 
 **Mortality_Predictor** is the final project of [Stephen Dini](https://github.com/StephenDini)
-, [Joe](https://github.com/JleMxe), [Claudia Wilkis](https://github.com/cwilkis)
+, [Joe Eck](https://github.com/JleMxe), [Claudia Wilkis](https://github.com/cwilkis)
 , [Andrea Darrah](https://github.com/andrealynn8201)
 
 <a href="https://github.com/StephenDini/Mortality_Predictor/graphs/contributors">
