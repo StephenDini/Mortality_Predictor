@@ -1,7 +1,7 @@
 // Add console.log to check to see if our code is working.
 console.log("Working");
 
-alert('Select the layer icon in the top right corner to interact with the map.');
+alert('You can select the layer icon in the top right corner, or the location markers to interact with the map.');
 
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -240,7 +240,11 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
 /////////////////////////////////////////////////////////////
 
  // Literacy Legend
+
+// Create a legend control object.
 var legend1 = L.control({position: "bottomleft"});		  
+
+// Add all the details for the legend
 legend1.onAdd = function() {
 	var div = L.DomUtil.create("div", "info legend");
 		const literacyRate = [0, 70, 80, 90, 100];
@@ -251,6 +255,8 @@ legend1.onAdd = function() {
 			"#60f205"
 			];
 		div.innerHTML = '<div><b>Literacy Rate</b></div>';
+		
+		// Loop through the intervals to generate a label with a colored square for each interval.
 		for (var i = 0; i < (literacyRate.length - 1); i++) {
 		console.log(colors[i]);
 		div.innerHTML +=
@@ -259,6 +265,8 @@ legend1.onAdd = function() {
 		}
 		return div;
 		};
+
+	// Add legend to the map.	
 	legend1.addTo(map);
 
 
