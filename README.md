@@ -74,6 +74,29 @@ Further work is needed.
 ---
 
 ## 🪣 Results
+### Process for Interactive Map
+As a group, we used an interactive map to best display the user interactivity portion of our project. We chose this as the information we wanted to portray was specifically about different data from different countries.
+
+Using Jupyter Notebook, we were able to collect the country coordinates into a DataFrame and added it to the data already collected.  We then used VS Code to create HTML, CSS and JS files to launch the website.
+
+#### Our tasks to make the map included:
+1. Create a base map.
+2. Create a separate layer for each factor we can conceivably represent on a map.
+3. Allow markers to have their own pop-ups based on which layer is being selected, so exact data for each country to be displayed.
+4. Create a legend for each layer to show what the color markers on the map mean.
+![Screen Shot 2022-08-06 at 6 56 36 PM](https://user-images.githubusercontent.com/93801125/183269459-9bf28288-6986-431d-bb9c-52847cce34bd.png)
+
+5. Create a pop-up or a user to see to give any information for the interactivity, that may not be readily apparent.
+![Screen Shot 2022-08-06 at 6 37 26 PM](https://user-images.githubusercontent.com/93801125/183269393-9259c023-03e0-42a9-b7f3-18f4aa5ca5a3.png)
+
+
+Using Leaflet to create a basic map, D3 to bring the map to life, and GeoJSON to bring the data in to be manipulated, created an informative and easily read, interactive component.
+
+### Encountering Map Limitations
+
+One of the first limitations we encountered, was deciding which data could/should be displayed when making the map.  We decided only one year of GDP and Alcohol should be displayed with the most recent year being used. If we used all the years we had, it would make the map very crowded and less informative. We also had to cut out religion, since there are many religions within each country, and not an easy way to represent that within a map.
+
+Another limitiation that we ran into, was that we weren't able to be more specific in legend placement.  Leaflet only allowed 'topleft', 'topright', 'bottomleft' and 'bottomright'. If bottom left was selected twice, it would stack them instead of laying them across the bottom, where we preferred. We also wanted the layers to come in with its own legend, but were having trouble launching this specification. We also had to consider how the legends were possibly going to be displayed if more than one layer was selected.
 
 ---
 
