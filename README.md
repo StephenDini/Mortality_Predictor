@@ -117,7 +117,7 @@ Another limitiation that we ran into, was that we weren't able to be more specif
 , [Andrea Darrah](https://github.com/andrealynn8201)
 
 <a href="https://github.com/StephenDini/Mortality_Predictor/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=StephenDini/Mortality_Predictor" />
+  <img src="/picture/adjusted_image.png" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
