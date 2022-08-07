@@ -35,7 +35,7 @@ Using information and code found on machinelearningmastery.com, we optimized the
 ![Classification report](https://github.com/StephenDini/Mortality_Predictor/blob/main/pictures/bagging_classification_report.png)
 
 ### Limitations of machine learning model
-First, given that the bagging classifier selects the features, any change or addition to the dataset can significantly alter the learning model. Given that latitude and longitude were added after the initial model was created, these columns were dropped as to not alter the model. Second, given the high accuracy and ROC AUC scores from the optimized model, overfitting was a concern. However, we limited the number of features to 4 in order to reduce the complexity of the model to avoid overfitting. 
+The bagging classifier automatically selects the features, so any change or addition to the dataset can significantly alter the learning model. Given that latitude and longitude were added after the initial model was created, these columns were dropped as to not alter the model. The high accuracy and ROC AUC scores from the optimized model could indicate overfitting. However, we limited the number of features to 4 in order to reduce the complexity of the model to avoid overfitting. 
 ---
 
 ## 📝 Summary
