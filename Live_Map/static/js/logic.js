@@ -240,11 +240,7 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
 /////////////////////////////////////////////////////////////
 
  // Literacy Legend
-
-// Create a legend control object.
 var legend1 = L.control({position: "bottomleft"});		  
-
-// Add all the details for the legend
 legend1.onAdd = function() {
 	var div = L.DomUtil.create("div", "info legend");
 		const literacyRate = [0, 70, 80, 90, 100];
@@ -255,8 +251,6 @@ legend1.onAdd = function() {
 			"#60f205"
 			];
 		div.innerHTML = '<div><b>Literacy Rate</b></div>';
-		
-		// Loop through the intervals to generate a label with a colored square for each interval.
 		for (var i = 0; i < (literacyRate.length - 1); i++) {
 		console.log(colors[i]);
 		div.innerHTML +=
@@ -265,8 +259,6 @@ legend1.onAdd = function() {
 		}
 		return div;
 		};
-
-	// Add legend to the map.	
 	legend1.addTo(map);
 
 
