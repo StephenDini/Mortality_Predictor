@@ -1,0 +1,322 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mortally Predictors</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="">
+    <link rel="apple-touch-icon" href="">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+          integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+          crossorigin=""/>
+
+    <!-- d3 JavaScript -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <meta name="theme-color" content="#2b0229">
+</head>
+
+<body>
+<!-- Add your site or application content here -->
+
+<!-- The div that holds our map -->
+<!--<div class="container">-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+    <a class="navbar-brand" href="index.html">Mortality</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html#ETL">ETL</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html#Machine_Learning">Machine Learning</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Visualizations
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="main_point.html">Mortality by Country</a>
+                    <a class="dropdown-item" href="#">ChartOne</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <div class="row overflow-hidden">
+        <div class="col">
+            <div class="card">
+                <div class="card-header text-center"><h5 class="display-4">Factors of Mortality Map</h5></div>
+                <div class="card-body">
+                    <div id="mapid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row overflow-hidden">
+        <div class="col">
+            <div class="card text-center my-5" id="MapInformation">
+                <div class="card-header"><h2 class="display-6">Map Information</h2>
+                    <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#MapInformation-pane"
+                                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">What
+                                this map shows
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                    data-bs-target="#profile-tab-pane"
+                                    type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+                                Process for Interactive Map
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                                    data-bs-target="#contact-tab-pane"
+                                    type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">
+                                Encountering Map Limitations
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active left-align" id="MapInformation-pane" role="tabpanel"
+                         aria-labelledby="home-tab" tabindex="0">
+                        <div class="row">
+                            <p>This map will let you display the mortality rate per bucket, low, medium, and high.
+                                It will also you to toggle the display of the rates for Literacy,
+                                alcohol, and GDP Per Capita.
+                                <br>
+                                <br>
+                                These graphics are displayed as bubbles
+                                that grow in size and color as they get more extreme.
+                                Feel free to zoom in and see how the mortality rate compares. </p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade left-align" id="profile-tab-pane" role="tabpanel"
+                         aria-labelledby="profile-tab"
+                         tabindex="0">
+                        <div class="row">
+                            As a group, we used an interactive map to best display the user interactivity portion of our project. We chose this as the information we wanted to portray was specifically about different data from different countries.
+
+                            Using Jupyter Notebook, we were able to collect the country coordinates into a DataFrame and added it to the data already collected. We then used VS Code to create HTML, CSS and JS files to launch the website.
+                            Our tasks to make the map included:
+
+                            <ul class="px-5 py-2">
+                                <li>Create a base map.</li>
+
+                                <ul>
+                                    <li>Create a separate layer for each factor we can conceivably represent on a map.
+                                    </li>
+
+                                    <li>Allow markers to have their own pop-ups based on which layer is being selected,
+                                        so
+                                        exact data for each country to be displayed.
+                                    </li>
+
+                                    <li>Create a legend for each layer to show what the color markers on the map mean.
+                                    </li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                         tabindex="0">
+                        <div class="row">
+                            <div class="col-12" id="sources">
+                                <p class="left">One of the first limitations we encountered, was deciding which data could/should be
+                                displayed when making the map. We decided only one year of GDP and Alcohol should be
+                                displayed with the most recent year being used. If we used all the years we had, it
+                                would make the map very crowded and less informative. We also had to cut out religion,
+                                since there are many religions within each country, and not an easy way to represent
+                                that within a map.
+                                    <br><br>
+                                Another limitation that we ran into, was that we weren't able to be more specific in
+                                legend placement. Leaflet only allowed 'topleft', 'topright', 'bottomleft' and
+                                'bottomright'. If bottomleft was selected twice, it would stack them instead of laying
+                                them across the bottom, where we preferred. We also wanted the layers to come in with
+                                its own legend, but were having trouble launching this specification. We also had to
+                                consider how the legends were possibly going to be displayed if more than one layer was
+                                selected.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--<div id="mapid"></div>-->
+<!--  Footer  -->
+<footer class="bg-light text-center text-lg-start" style="margin-top: 20px;">
+    <!-- Grid container -->
+    <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 more-padding-footer mb-md-0">
+                <h5 class="text-center">Extra bits</h5>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                IDE
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                             aria-labelledby="panelsStayOpen-headingOne"
+                             data-bs-parent="#accordionPanelsStayOpenExample">
+                            <div class="accordion-body">
+                                <a href="https://www.jetbrains.com/webstorm/">Webstorm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                Web Apps
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                             aria-labelledby="panelsStayOpen-headingTwo"
+                             data-bs-parent="#accordionPanelsStayOpenExample">
+                            <div class="accordion-body">
+                                <a href="https://jupyter.org/">Jupyter Notebook</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                Text Processors
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                             aria-labelledby="panelsStayOpen-headingThree"
+                             data-bs-parent="#accordionPanelsStayOpenExample">
+                            <div class="accordion-body">
+                                <a href="https://www.sublimetext.com/">Sublime Text</a>
+                                <a href="https://code.visualstudio.com/">VS Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFour">
+                                Fun
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                             aria-labelledby="panelsStayOpen-headingFour"
+                             data-bs-parent="#accordionPanelsStayOpenExample">
+                            <div class="accordion-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">2 bottles of SideCart</li>
+                                    <li class="list-group-item">1 bottle of Mead</li>
+                                    <li class="list-group-item">X Black Russians</li>
+                                    <li class="list-group-item">1 bottle of Prosecco</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-center align-self-center">
+                <h5 class="">Github</h5>
+
+                <div class="">
+                    <a class="btn btn-primary " role="button"
+                       href="https://github.com/StephenDini/Mortality_Predictor">Mortality
+                        Predictor</a>
+                </div>
+            </div>
+            <!--Grid column-->
+        </div>
+        <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-dark" href="https://github.com/StephenDini/">github.com/StephenDini</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+
+<!--<div id="cmapid"></div>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<!--  <script src="js/chart.js"></script>-->
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<script src="https://kit.fontawesome.com/aa26a1b17b.js" crossorigin="anonymous"></script>
+<!-- Leaflet JavaScript -->
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+<!-- API key -->
+<script type="text/javascript" src="../Live_Map/static/js/config.js"></script>
+
+<!-- Our JavaScript -->
+<script type="text/javascript" src="./js/logic.js"></script>
+</body>
+
+</html>

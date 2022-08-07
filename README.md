@@ -45,7 +45,7 @@ Using information and code found on machinelearningmastery.com, we optimized the
 ![Classification report](https://github.com/StephenDini/Mortality_Predictor/blob/main/pictures/bagging_classification_report.png)
 
 ### Limitations of machine learning model
-First, given that the bagging classifier selects the features, any change or addition to the dataset can significantly alter the learning model. Given that latitude and longitude were added after the initial model was created, these columns were dropped as to not alter the model. Second, given the high accuracy and ROC AUC scores from the optimized model, overfitting was a concern. However, we limited the number of features to 4 in order to reduce the complexity of the model to avoid overfitting. 
+The bagging classifier automatically selects the features, so any change or addition to the dataset can significantly alter the learning model. Given that latitude and longitude were added after the initial model was created, these columns were dropped as to not alter the model. The high accuracy and ROC AUC scores from the optimized model could indicate overfitting. However, we limited the number of features to 4 in order to reduce the complexity of the model to avoid overfitting. 
 
 ---
 
@@ -66,11 +66,10 @@ Using Jupyter Notebook, we were able to collect the country coordinates into a D
 2. Create a separate layer for each factor we can conceivably represent on a map.
 3. Allow markers to have their own pop-ups based on which layer is being selected, so exact data for each country to be displayed.
 4. Create a legend for each layer to show what the color markers on the map mean.
-![Screen Shot 2022-08-06 at 6 56 36 PM](https://user-images.githubusercontent.com/93801125/183269459-9bf28288-6986-431d-bb9c-52847cce34bd.png)
+![Live_Map ](https://user-images.githubusercontent.com/93801125/183296275-dce66a7b-f3b3-49c6-846b-dc32c15beb05.png)
 
 5. Create a pop-up or a user to see to give any information for the interactivity, that may not be readily apparent.
-![Screen Shot 2022-08-06 at 6 37 26 PM](https://user-images.githubusercontent.com/93801125/183269393-9259c023-03e0-42a9-b7f3-18f4aa5ca5a3.png)
-
+![Live_Map_Popup](https://user-images.githubusercontent.com/93801125/183296306-3bd184e0-e0d2-4a1f-80f3-ec078ef7c2e3.png)
 
 Using Leaflet to create a basic map, D3 to bring the map to life, and GeoJSON to bring the data in to be manipulated, created an informative and easily read, interactive component.
 
@@ -116,9 +115,7 @@ Another limitiation that we ran into, was that we weren't able to be more specif
 , [Joe Eck](https://github.com/JleMxe), [Claudia Wilkis](https://github.com/cwilkis)
 , [Andrea Darrah](https://github.com/andrealynn8201)
 
-<a href="https://github.com/StephenDini/Mortality_Predictor/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=StephenDini/Mortality_Predictor" />
-</a>
+[![...](https://github.com/StephenDini/Mortality_Predictor/blob/main/pictures/adjusted_image.png?raw=true)](https://github.com/StephenDini/Mortality_Predictor/graphs/contributors)
 
 Made with [contrib.rocks](https://contrib.rocks).
 
