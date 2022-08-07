@@ -1,15 +1,4 @@
-- name: secrets-to-env-action
-  # You may pin to the exact commit or the version.
-  # uses: oNaiPs/secrets-to-env-action@2fe98aa2e8f610341c3dd916aff27b218b92f6f8
-  uses: oNaiPs/secrets-to-env-action@v1
+...
+- uses: oNaiPs/secrets-to-env-action@v1
   with:
-    # JSON representation of the secrets, use provided placeholder'
-    secrets: 
-    # Prefix to add to all secrets, e.g.: SECRET_
-    prefix: # optional
-    # Comma-separated list of secrets to export
-    include: # optional
-    # Comma-separated list of secrets to skip exporting
-    exclude: # optional
-    # Converts secrets name to a specific string format
-    convert: # optional
+    secrets: ${{ toJSON(secrets) }}
