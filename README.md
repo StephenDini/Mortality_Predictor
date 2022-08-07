@@ -31,7 +31,7 @@ What are the socioeconomic and cultural factors that impact mortality rates arou
 ---
 
 ## 🧮 Analysis
-=======
+
 ## Machine learning model
 For the project, our group wants to see if a machine learning model can correlate socioeconomic and cultural factors to mortality rates by country. Our project used supervised machine learning, specifically the Random Forest Classifier, thod, given our data is labeled and we are looking for a discrete outcome. Several other methods were tested (see mortality_machine_learning and mortality_machine_learning_2 in machine learning folder). Those methods were rejected given that the balanced accuracy scores were lower than the Random Forest Classifier. We chose the balanced accuracy score as the method for measuring how well the model performed based on best practices learned in class, as well as best practice, according to [machinemastery.com](https://machinelearningmastery.com/how-to-know-if-your-machine-learning-model-has-good-performance/) for classification models. 
 
@@ -50,7 +50,6 @@ First, given that the bagging classifier selects the features, any change or add
 ---
 
 ## 👌 Interactive Website
-=======
 
 The mockup for the site was created using paint and gives the overall flow of the site for us to follow. The inspiration for the mockup was taken from the belly button module. The website will consist of one main landing page and various other pages for chats and maps. The landing page will layout the information about the project and a blurb the team behind the project. The website is hosted on GitHub pages utilizing [Bootstrap](https://getbootstrap.com/) and Javascript. With the data cleaned, we decided to use an interactive map to showcase the results. Different approaches have been combed through based on the various Modules that were used during this course. These include WeatherPy and Mapping Earthquakes. The latter is more promising with the data we have for this project. Other modules that were looked at were UFO Sightings and Mission to Mars,in order to look at what can be done with formatting the webpage for the map. So far, a map has been created as seen in the Live_Map folder. Further work is needed.
 
