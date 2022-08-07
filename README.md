@@ -21,7 +21,6 @@ What are the socioeconomic and cultural factors that impact mortality rates arou
 * Literacy Rate by Country
 * Country Coordinates
 
-
 ### Data Approach
 
 * All data files were cleaned and merged into a single data source for the machine learning model.
@@ -33,10 +32,10 @@ What are the socioeconomic and cultural factors that impact mortality rates arou
 ## 🧮 Analysis
 
 ## Machine learning model
-For the project, our group wants to see if a machine learning model can correlate socioeconomic and cultural factors to mortality rates by country. Our project used supervised machine learning, specifically the Random Forest Classifier, thod, given our data is labeled and we are looking for a discrete outcome. Several other methods were tested (see mortality_machine_learning and mortality_machine_learning_2 in machine learning folder). Those methods were rejected given that the balanced accuracy scores were lower than the Random Forest Classifier. We chose the balanced accuracy score as the method for measuring how well the model performed based on best practices learned in class, as well as best practice, according to [machinemastery.com](https://machinelearningmastery.com/how-to-know-if-your-machine-learning-model-has-good-performance/) for classification models. 
+For the project, our group wants to see if a machine learning model can correlate socioeconomic and cultural factors to mortality rates by country. Our project used supervised machine learning, specifically the Random Forest Classifier, given our data is labeled and we are looking for a discrete outcome. Several other methods were tested (see mortality_machine_learning and mortality_machine_learning_2 in machine learning folder). Those methods were rejected given that the balanced accuracy scores were lower than the Random Forest Classifier. We chose the balanced accuracy score as the method for measuring how well the model performed based on best practices learned in class, as well as best practice, according to [machinemastery.com](https://machinelearningmastery.com/how-to-know-if-your-machine-learning-model-has-good-performance/) for classification models. 
 
 #### Data Processing
-Once ETL completed on datasets, there were 26 features to test against mortality rate. In order to test classificataion, mortality rate was transformed into "mortality state" by taking mortality rate 2015 into splitting into ctaegories of high, medium, and low numericly 3,2,1. Mortality Rate columns for all years were then dropped, as well as the mortality state so the model could use "mortality_state' as the y variable. Country name, latitude, and longitude was also dropped. The original model resulted in a 71.9 balanced accuracy score.
+Once ETL completed on datasets, there were 26 features to test against mortality rate. In order to test classification, mortality rate was transformed into "mortality state" by taking mortality rate 2015 into splitting into categories of high, medium, and low numerically 3,2,1. Mortality Rate columns for all years were then dropped, as well as the mortality rate so the model could use "mortality_state' as the y variable. Country name, latitude, and longitude was also dropped. The original model resulted in a 71.9 balanced accuracy score.
 ![Original model](https://github.com/StephenDini/Mortality_Predictor/blob/main/pictures/Machine%20Learning%20original%20Random%20Forest%20Classifier.png)
 
 #### Optimizing Model
@@ -51,7 +50,7 @@ The bagging classifier automatically selects the features, so any change or addi
 
 ## 👌 Interactive Website
 
-The mockup for the site was created using paint and gives the overall flow of the site for us to follow. The inspiration for the mockup was taken from the belly button module. The website will consist of one main landing page and various other pages for chats and maps. The landing page will layout the information about the project and a blurb the team behind the project. The website is hosted on GitHub pages utilizing [Bootstrap](https://getbootstrap.com/) and Javascript. With the data cleaned, we decided to use an interactive map to showcase the results. Different approaches have been combed through based on the various Modules that were used during this course. These include WeatherPy and Mapping Earthquakes. The latter is more promising with the data we have for this project. Other modules that were looked at were UFO Sightings and Mission to Mars,in order to look at what can be done with formatting the webpage for the map. So far, a map has been created as seen in the Live_Map folder. Further work is needed.
+The mockup for the site was created using paint and gives the overall flow of the site for us to follow. The inspiration for the mockup was taken from the belly button module. The website will consist of one main landing page and various other pages for chats and maps. The landing page will layout the information about the project and a blurb the team behind the project. The website is hosted on GitHub pages utilizing [Bootstrap](https://getbootstrap.com/) and Javascript. With the data cleaned, we decided to use an interactive map to showcase the results. Different approaches have been combed through based on the various Modules that were used during this course. These include WeatherPy and Mapping Earthquakes. The latter is more promising with the data we have for this project. Other modules that were looked at were UFO Sightings and Mission to Mars, in order to look at what can be done with formatting the webpage for the map. So far, a map has been created as seen in the Live_Map folder. Further work is needed.
 
 ---
 
@@ -77,7 +76,7 @@ Using Leaflet to create a basic map, D3 to bring the map to life, and GeoJSON to
 
 One of the first limitations we encountered, was deciding which data could/should be displayed when making the map.  We decided only one year of GDP and Alcohol should be displayed with the most recent year being used. If we used all the years we had, it would make the map very crowded and less informative. We also had to cut out religion, since there are many religions within each country, and not an easy way to represent that within a map.
 
-Another limitiation that we ran into, was that we weren't able to be more specific in legend placement.  Leaflet only allowed 'topleft', 'topright', 'bottomleft' and 'bottomright'. If bottom left was selected twice, it would stack them instead of laying them across the bottom, where we preferred. We also wanted the layers to come in with its own legend, but were having trouble launching this specification. We also had to consider how the legends were possibly going to be displayed if more than one layer was selected.
+Another limitation that we ran into, was that we weren't able to be more specific in legend placement.  Leaflet only allowed 'topleft', 'topright', 'bottomleft' and 'bottomright'. If bottom left was selected twice, it would stack them instead of laying them across the bottom, where we preferred. We also wanted the layers to come in with its own legend but were having trouble launching this specification. We also had to consider how the legends were possibly going to be displayed if more than one layer was selected.
 
 ---
 
@@ -147,4 +146,3 @@ Made with [contrib.rocks](https://contrib.rocks).
 * Country Coordinates
   * Coordinates.csv
   * Source: https://www.geeksforgeeks.org/how-to-find-longitude-and-latitude-for-a-list-of-regions-or-country-using-python/
-    
