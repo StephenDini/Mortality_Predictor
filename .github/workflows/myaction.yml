@@ -1,10 +1,10 @@
-...
+
 name: Deploy to GitHub Pages
-    on:
-      push:
+on:
+     push:
         branches:
           - main
-    jobs:
+jobs:
       build-and-deploy:
         runs-on: ubuntu-latest
         steps:
@@ -23,14 +23,6 @@ name: Deploy to GitHub Pages
           with:
             # JSON representation of the secrets, use provided placeholder'
             secrets: ${{ secrets.API_KEY }}
-            # Prefix to add to all secrets, e.g.: SECRET_
-            prefix: # optional
-            # Comma-separated list of secrets to export
-            include: # optional
-            # Comma-separated list of secrets to skip exporting
-            exclude: # optional
-            # Converts secrets name to a specific string format
-            convert: # optional
         
         - name: Deploy
           uses: JamesIves/github-pages-deploy-action@releases/v3
