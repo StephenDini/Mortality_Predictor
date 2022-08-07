@@ -66,11 +66,10 @@ Using Jupyter Notebook, we were able to collect the country coordinates into a D
 2. Create a separate layer for each factor we can conceivably represent on a map.
 3. Allow markers to have their own pop-ups based on which layer is being selected, so exact data for each country to be displayed.
 4. Create a legend for each layer to show what the color markers on the map mean.
-![Screen Shot 2022-08-06 at 6 56 36 PM](https://user-images.githubusercontent.com/93801125/183269459-9bf28288-6986-431d-bb9c-52847cce34bd.png)
+![Live_Map ](https://user-images.githubusercontent.com/93801125/183296275-dce66a7b-f3b3-49c6-846b-dc32c15beb05.png)
 
 5. Create a pop-up or a user to see to give any information for the interactivity, that may not be readily apparent.
-![Screen Shot 2022-08-06 at 6 37 26 PM](https://user-images.githubusercontent.com/93801125/183269393-9259c023-03e0-42a9-b7f3-18f4aa5ca5a3.png)
-
+![Live_Map_Popup](https://user-images.githubusercontent.com/93801125/183296306-3bd184e0-e0d2-4a1f-80f3-ec078ef7c2e3.png)
 
 Using Leaflet to create a basic map, D3 to bring the map to life, and GeoJSON to bring the data in to be manipulated, created an informative and easily read, interactive component.
 
