@@ -1,5 +1,5 @@
 {
-  "root": "public",
+  "root": "docs",
   "clean_urls": false,
   "routes": {
     "/docs/*.html": "index.html",
