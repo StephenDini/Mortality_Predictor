@@ -1,0 +1,590 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mortally Predictors</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <!--    <link rel="manifest" href="site.webmanifest">-->
+    <!--    <link rel="apple-touch-icon" href="icon.png">-->
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+
+    <meta name="theme-color" content="#2b0229">
+</head>
+
+
+<body>
+<!-- NavBar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+    <a class="navbar-brand" href="index.html">Mortality</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#ETL">ETL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Machine_Learning">Machine Learning</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Visualizations
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="main_point.html">Mortality by Country</a>
+                    <a class="dropdown-item" href="livemap.html">Live Map</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- END Navbar-->
+
+<!-- Add your site or application content here -->
+
+<div class="container">
+    <!-- Landing Image -->
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 wowzer text-center bg-light">
+        <div class="col-md-5 p-lg-5 mx-auto my-5 bg-white rounded-5" style="--bs-bg-opacity: .75">
+            <h1 class="display-6 ">What are the socioeconomic and cultural factors that impact mortality rates around
+                the world?</h1>
+            <p class="lead">A final project by Andrea, Claudia, Joe, and Stephen.</p>
+        </div>
+    </div>
+    <!-- END Landing Image -->
+    <br>
+    <!-- Approach -->
+
+    <div class="card text-center" id="ETL">
+        <div class="card-header"><h2 class="display-6">ETL</h2>
+            <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                            type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Extract
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                            type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Transform
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                            type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Sources
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="card-body tab-content" id="myTabContent">
+            <div class="tab-pane fade show active left-align" id="home-tab-pane" role="tabpanel"
+                 aria-labelledby="home-tab" tabindex="0">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="list-group list-cst ">
+                            <div class="list-group-item list-cst">
+                                <h5>Data files were first read in as dataframes</h5>
+                            </div>
+                            <div class="list-group-item list-cst">
+                                <h5>Each dataframe was then examined for content and layout</h5>
+                            </div>
+                            <div class="list-group-item list-cst">
+                                <h5 class="mb-1">Some data was not available for all years</h5>
+                                <ul>
+                                    <li><h6 class="mb-1">Literacy</h6></li>
+                                    <ul>
+                                        <li><p>Most current year available for each country was used</p></li>
+                                    </ul>
+                                    <li><h6 class="mb-1">Religion</h6></li>
+                                    <ul>
+                                        <li><p>2010 was used as the breakdown in religion over time in a country tends
+                                            to be
+                                            a very slow moving process</p></li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <div class="list-group-item list-cst">
+                                <h5 class="mb-1">Cleaning of each dataframe was performed</h5>
+                                <ul class="px-5">
+                                    <li><p class="">Data types were examined and modified as needed (made numeric for
+                                        Machine Learning)</p></li>
+                                    <li><p class="">Rows with Nulls were dropped</p></li>
+                                    <li><p class="">Complex or cryptic column headings were renamed</p></li>
+                                    <li><p class="">In two cases (Alcohol and Mortality Rates) the various years were
+                                        not
+                                        represented by columns. Rather, they were all in one column with the data spread
+                                        out
+                                        after in columns. This presented a problem as the data needed to be columned.
+                                        The
+                                        beginning is shown below.</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 mp-1">
+                        <div class="row my-3">
+                            <label class=""><h5 style="text-align: center;">Year Problem: Alcohol</h5></label>
+                            <img src="pictures/img/alcohol_dataframe_1.png" class="img-thumbnail " alt="...">
+                        </div>
+                        <div class="row my-3">
+                            <label class=""><h5 style="text-align: center;">Year Problem: Mortality</h5></label>
+                            <img src="pictures/img/mortality_dataframe_1.png" class="img-thumbnail " alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade left-align" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                 tabindex="0">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="list-group list-cst">
+                            <div class="list-group-item list-cst">
+                                <h5>The dataframes were split into individual dataframes by year</h5>
+                                <ul class="px-5">
+                                    <li><p class="">The Year column was then dropped from each</p></li>
+                                    <li><p class="">The resulting dataframes were then merged back together</p></li>
+                                    <li><p class="">The end results were transformed dataframes usable for machine
+                                        learning</p></li>
+                                    <li><p class="">Un-needed columns were dropped</p></li>
+                                </ul>
+                            </div>
+                            <div class="list-group-item list-cst">
+                                <h5>Cleansed and transformed dataframes were then merged into a single data frame</h5>
+                                <ul class="px-5">
+                                    <li><p class="">Column mortality_rate was added to show the 2015 mortality rate data
+                                        as a
+                                        percentage</p></li>
+                                </ul>
+                            </div>
+                            <div class="list-group-item list-cst">
+                                <h5>Column mortality_state was added binning denoting whether the mortality_rate is
+                                    high(3),
+                                    medium(2), or low(1) using breakpoints as follows: </h5>
+                                <ul class="px-5">
+                                    <li><p class="">Greater than 20% is considered high</p></li>
+                                    <li><p class="">Between 10% and 20% is considered medium</p></li>
+                                    <li><p class="">Less than 10% is considered low</p></li>
+                                    <li><p class="">The above breakpoints were chosen as it produces a reasonable
+                                        distribution of
+                                        data between the bins.</p></li>
+                                </ul>
+                            </div>
+                            <div class="list-group-item list-cst">
+                                <h5>A check was made once more to verify the deta and a csv file was created to be used
+                                    machine learning.</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 mp-1">
+                        <div class="row my-3">
+                            <label class=""><h5 style="text-align: center;">Usable Data: Alcohol</h5></label>
+                            <img src="pictures/img/alcohol_dataframe_2.png" class="img-thumbnail " alt="...">
+                        </div>
+                        <div class="row my-3">
+                            <label class=""><h5 style="text-align: center;">Usable Data: Mortality</h5></label>
+                            <img src="pictures/img/mortality_dataframe_2.png" class="img-thumbnail " alt="...">
+                        </div>
+                        <div class="row my-3">
+                            <label class=""><h5 style="text-align: center;">Break Points</h5></label>
+                            <img src="pictures/img/mortality_state_breakpoints.png"
+                                 class="img-thumbnail "
+                                 alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                <div class="row">
+                    <div class="col-12" id="sources">
+                        <h2 class="section_dini" style="text-align: center; text-underline-mode: underline;">
+                            Sources</h2>
+                        <ol class="list-group list-group-numbered left list-cst">
+                            <li class=" list-group-item d-flex list-cst justify-content-between align-items-start">
+                                <div class=" ms-2 me-auto">
+                                    <div class=" fw-bold">Mortality Rate by Country</div>
+                                    File name: <a
+                                        href="https://www.who.int/data/gho/data/indicators/indicator-details/GHO/adult-mortality-rate-(probability-of-dying-between-15-and-60-years-per-1000-population)">
+                                    1855dc1a-df9c-4bdc-bab6-21f17897cebc.csv</a>
+                                </div>
+                                <span class="badge bg-primary rounded-pill"><small>Last Updated: 2018</small></span>
+                            </li>
+                            <li class="list-group-item  list-cst d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Alcohol Consumption by Country</div>
+                                    File name: <a
+                                        href="https://www.kaggle.com/datasets/sveneschlbeck/alcohol-consumption-per-capita-year-and-country">
+                                    alcohol-consumption.csv </a>
+                                </div>
+                                <span class="badge bg-primary rounded-pill"><small>Last Updated: 10 months ago</small></span>
+                            </li>
+                            <li class="list-group-item  list-cst d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Population Growth Rates by Country</div>
+                                    File name: <a href="https://data.worldbank.org/indicator/SP.POP.GROW">API_SP.POP.GROW_DS2_en_csv_v2_4251293.csv</a>
+                                </div>
+                                <span class="badge bg-primary rounded-pill"><small>Last Updated: 2021</small></span>
+                            </li>
+                            <li class="list-group-item list-cst d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">GDP by Country</div>
+                                    File name: <a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.CD">API_NY.GDP.MKTP.CD_DS2_en_csv_v2_4251000.csv</a>
+                                </div>
+                                <span class="badge bg-primary rounded-pill"><small>Last Updated: 2021</small></span>
+                            </li>
+                            <li class="list-group-item list-cst d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">GDP Per Capita by Country</div>
+                                    File name: <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD">API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4251004.csv</a>
+                                </div>
+                                <span class="badge bg-primary rounded-pill"><small>Last Updated: 2021</small></span>
+                            </li>
+                            <li class="list-group-item list-cst d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Religion breakdown by Country</div>
+                                    File name: <a
+                                        href="https://www.pewresearch.org/religion/2015/04/02/religious-projection-table/">Religious_Composition_by_Country_2010-2050.xlsx</a>
+                                </div>
+                                <span class="badge bg-primary rounded-pill"><small>Last Updated: 2015</small></span>
+                            </li>
+                            <li class="list-group-item list-cst d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Literacy Rate by Country</div>
+                                    File name: <a
+                                        href="https://ourworldindata.org/global-education">literacy-rate-by-country</a>
+                                </div>
+                                <span class="badge bg-primary rounded-pill"><small>Last Updated: 2016</small></span>
+                            </li>
+                            <li class="list-group-item list-cst d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Country Coordinates</div>
+                                    File name: <a
+                                        href="https://www.geeksforgeeks.org/how-to-find-longitude-and-latitude-for-a-list-of-regions-or-country-using-python/">Coordinates.csv</a>
+                                </div>
+                                <span class="badge bg-primary rounded-pill"><small>Last Updated: 2020</small></span>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card my-5 text-center" id="Machine_Learning">
+        <div class="card-header"><h2 class="display-6">Machine Learning</h2>
+            <ul class="nav nav-tabs card-header-tabs" id="myMLTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-ML-tab" data-bs-toggle="tab"
+                            data-bs-target="#home-ML-tab-pane"
+                            type="button" role="tab" aria-controls="home-ML-tab-pane" aria-selected="true">Machine
+                        learning model
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-ML-tab" data-bs-toggle="tab"
+                            data-bs-target="#profile-ML-tab-pane"
+                            type="button" role="tab" aria-controls="profile-ML-tab-pane" aria-selected="false">Data
+                        Processing
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-ML-tab" data-bs-toggle="tab"
+                            data-bs-target="#contact-ML-tab-pane"
+                            type="button" role="tab" aria-controls="contact-ML-tab-pane" aria-selected="false">
+                        Optimizing Model
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="limitation-tab" data-bs-toggle="tab"
+                            data-bs-target="#limitation-pane"
+                            type="button" role="tab" aria-controls="contact-ML-tab-pane" aria-selected="false">
+                        Limitations of machine learning model
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="card-body tab-content" id="myMLTabContent">
+            <div class="tab-pane fade show active left-align" id="home-ML-tab-pane" role="tabpanel"
+                 aria-labelledby="home-ML-tab" tabindex="0">
+
+                <h5 class="card-title" style="text-align: center;">Machine learning model</h5>
+                <p class="card-text">For the project, our group wants to see if a machine learning model can correlate
+                    socioeconomic and coltural factors to mortality rates by country. Our project used supervised
+                    machine learning, specifically the Random Forest Classifier method, given our data is labeled and we
+                    are looking for a discrete outcome. Several other methods were tested (see
+                    mortality_machine_learning and mortality_machine_learning_2 in machine learning folder). Those
+                    methods were rejected given that the balanced accuracy scores were lower than the Random Forest
+                    Classifer. We chose the balanced accuracy score as the method for measuring how well the model
+                    performed based on best practices learned in class, as well as best practice, according to
+                    machinemastery.com for classification models.</p>
+            </div>
+            <div class="tab-pane fade left-align" id="profile-ML-tab-pane" role="tabpanel"
+                 aria-labelledby="profile-ML-tab"
+                 tabindex="0">
+
+                <h5 class="card-title" style="text-align: center;">Data Processing</h5>
+                <p class="card-text">Once ETL completed on datasets, there were 26 features to test against mortality
+                    rate. Mortality Rate columns for all years were dropped, as well as the mortality state so the model
+                    could use "mortality_state' as the y variable. Country name column was also dropped as it was not a
+                    numerical column. The original model resulted in a 70.9 balanced accuracy score.</p>
+
+            </div>
+            <div class="tab-pane fade left-align" id="contact-ML-tab-pane" role="tabpanel"
+                 aria-labelledby="contact-ML-tab"
+                 tabindex="0">
+
+                <h5 class="card-title" style="text-align: center;">Optimizing Model</h5>
+                <img src="pictures/img/MortConMat.png"
+                     class="mx-auto d-block img-thumbnail"
+                     alt="..."><br>
+                <p class="card-text">Using information and code found on machinelearningmastery.com, we optimized the
+                    model using sklearn BaggingClassifier model. This library automatically bins certain features to
+                    more accurately predict mortality state. Having the code auto classify features helps reduce bias in
+                    the data. The outcome of this optimization is 0.906. The ROC AUC score was 0.911. Both scores give
+                    "outstanding discrimination" according to statology.org. This means the machine learning optimized
+                    model is more than 90% likely to predict mortality state based on socioeconomic and cultural factors
+                    when weighted against each other.</p>
+            </div>
+            <div class="tab-pane fade left-align" id="limitation-pane" role="tabpanel"
+                 aria-labelledby="contact-ML-tab"
+                 tabindex="0">
+
+                <h5 class="card-title" style="text-align: center;">Limitations of machine learning model</h5>
+                <img src="../pictures/Machine Learning original Random Forest Classifier.png"
+                     class="mx-auto d-block img-thumbnail"
+                     alt="..."><br>
+                <p class="card-text">First, given that the bagging classifier selects the features, any change or
+                    addition to the dataset can significantly alter the learning model. Given that latitude and
+                    longitude were added after the initial model was created, these columns were dropped as to not alter
+                    the model. Second, given the high accuracy and ROC AUC scores from the optimized model, overfitting
+                    was a concern. However, we limited the number of features to 4 in order to reduce the complexity of
+                    the model to avoid overfitting.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card my-5">
+        <div class="card-header text-center "><h2 class="display-6">About</h2></div>
+        <div class="card-body">
+            <div class="main col-12" id="about">
+                <div class="container">
+                    <br>
+                    <div class="row mx-auto">
+                        <div class="col-md-3 about-container">
+                            <img class="rounder" src="pictures/img/stephen.jpg"/>
+                            <div class="middle" style="cursor: pointer;"
+                                 onclick="window.location='https://www.github.com/stephendini/';">
+                                <!--          <img class="github" src="../pictures/img/github.jpg"/>-->
+                                <div class="text">
+                                    <a class="no-link" href="https://www.github.com/stephendini/">Stephen</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 about-container">
+                            <img class="rounder" src="pictures/img/joe.png"/>
+                            <div class="middle" style="cursor: pointer;"
+                                 onclick="window.location='https://github.com/JleMxe';">
+                                <!--          <img class="github" src="../pictures/img/github.jpg"/>-->
+                                <div class="text"><a class="no-link" href="https://github.com/JleMxe">Joe</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3  about-container">
+                            <img class="rounder" src="pictures/img/andrea.jpg"/>
+                            <div class="middle" style="cursor: pointer;"
+                                 onclick="window.location='https://github.com/andrealynn8201';">
+                                <!--          <img class="github" src="../pictures/img/github.jpg"/>-->
+                                <div class="text"><a class="no-link"
+                                                     href="https://github.com/andrealynn8201">Andrea</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 about-container">
+                            <img class="rounder" src="pictures/img/cwilkis.jpg"/>
+                            <div class="middle" style="cursor: pointer;"
+                                 onclick="window.location='https://github.com/cwilkis';">
+                                <!--          <img class="github" src="../pictures/img/github.jpg"/>-->
+                                <div class="text"><a class="no-link" href="https://github.com/cwilkis">Claudia</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-us" style="text-align: justify">
+                            <h2 style="text-align: center;" class="display-6">Who are we?</h2>
+                            <p class="lead">The Data Analytics Team has four members comprising a wide variety of
+                                backgrounds and skill sets to service our client’s needs. Andrea has an in-depth
+                                knowledge of the medical field with a skill set strong in javascript and intuitive
+                                graphics for data visualizations. Claudia has a manufacturing foundation with project
+                                management and machine learning anchoring her skill set. Stephen comes to the group with
+                                a history as a construction technologist automating processes and is a
+                                powerhouse in the web development arena. And finally, Joe brings decades of process
+                                engineering and project management in the primary metals industry with a solid
+                                foundation in data management, extraction, and analysis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+<script src="js/chart.js"></script>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<!--  <script>-->
+<!--    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;-->
+<!--    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')-->
+<!--  </script>-->
+<!--  <script src="https://www.google-analytics.com/analytics.js" async></script>-->
+
+<!--  Footer  -->
+<footer class="bg-light text-center text-lg-start" style="margin-top: 20px;">
+    <!-- Grid container -->
+    <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 more-padding-footer mb-md-0">
+                <h5 class="text-center">Extra bits</h5>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                IDE
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                             aria-labelledby="panelsStayOpen-headingOne"
+                             data-bs-parent="#accordionPanelsStayOpenExample">
+                            <div class="accordion-body">
+                                <a href="https://www.jetbrains.com/webstorm/">Webstorm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                Web Apps
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                             aria-labelledby="panelsStayOpen-headingTwo"
+                             data-bs-parent="#accordionPanelsStayOpenExample">
+                            <div class="accordion-body">
+                                <a href="https://jupyter.org/">Jupyter Notebook</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                Text Processors
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                             aria-labelledby="panelsStayOpen-headingThree"
+                             data-bs-parent="#accordionPanelsStayOpenExample">
+                            <div class="accordion-body">
+                                <a href="https://www.sublimetext.com/">Sublime Text</a>
+                                <a href="https://code.visualstudio.com/">VS Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFour">
+                                Fun
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                             aria-labelledby="panelsStayOpen-headingFour"
+                             data-bs-parent="#accordionPanelsStayOpenExample">
+                            <div class="accordion-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">2 bottles of SideCart</li>
+                                    <li class="list-group-item">1 bottle of Mead</li>
+                                    <li class="list-group-item">X Black Russians</li>
+                                    <li class="list-group-item">1 bottle of Prosecco</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-center align-self-center">
+                <h5 class="">Github</h5>
+
+                <div class="">
+                    <a class="btn btn-primary " role="button"
+                      href="https://github.com/StephenDini/Mortality_Predictor">Mortality
+                    Predictor</a>
+                </div>
+            </div>
+            <!--Grid column-->
+        </div>
+        <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-dark" href="https://github.com/StephenDini/">github.com/StephenDini</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+
+</body>
+
+</html>
