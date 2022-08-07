@@ -8,9 +8,9 @@
         "Longitude": 19.9999619,
         "Latitude": 41.000028,
         "Literacy_Rate": 96.8,
-        "mortality_rate": 9.223999999999998,
+        "mortality_rate": 9.22,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 3952.80253807527,
+        "gdp_per_capita_2015": 3952.8,
         "alcohol_rate_2015": 6.74
       },
       "geometry": {
@@ -28,9 +28,9 @@
         "Longitude": 2.9999825,
         "Latitude": 28.0000272,
         "Literacy_Rate": 72.6,
-        "mortality_rate": 9.649,
+        "mortality_rate": 9.65,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 4177.8895415169,
+        "gdp_per_capita_2015": 4177.89,
         "alcohol_rate_2015": 0.93
       },
       "geometry": {
@@ -50,7 +50,7 @@
         "Literacy_Rate": 70.4,
         "mortality_rate": 23.98,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 3127.89059784461,
+        "gdp_per_capita_2015": 3127.89,
         "alcohol_rate_2015": 7.96
       },
       "geometry": {
@@ -68,9 +68,9 @@
         "Longitude": -61.9554608,
         "Latitude": 17.2234721,
         "Literacy_Rate": 99.0,
-        "mortality_rate": 12.190000000000001,
+        "mortality_rate": 12.19,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 14285.3297773091,
+        "gdp_per_capita_2015": 14285.33,
         "alcohol_rate_2015": 5.89
       },
       "geometry": {
@@ -88,9 +88,9 @@
         "Longitude": -64.9672817,
         "Latitude": -34.9964963,
         "Literacy_Rate": 97.9,
-        "mortality_rate": 11.270000000000001,
+        "mortality_rate": 11.27,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 13789.060424772,
+        "gdp_per_capita_2015": 13789.06,
         "alcohol_rate_2015": 9.55
       },
       "geometry": {
@@ -108,9 +108,9 @@
         "Longitude": 44.6736646,
         "Latitude": 40.7696272,
         "Literacy_Rate": 99.6,
-        "mortality_rate": 12.129999999999999,
+        "mortality_rate": 12.13,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 3607.28929855361,
+        "gdp_per_capita_2015": 3607.29,
         "alcohol_rate_2015": 5.84
       },
       "geometry": {
@@ -128,9 +128,9 @@
         "Longitude": 134.755,
         "Latitude": -24.7761086,
         "Literacy_Rate": 99.0,
-        "mortality_rate": 6.2170000000000005,
+        "mortality_rate": 6.22,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 56707.0220772116,
+        "gdp_per_capita_2015": 56707.02,
         "alcohol_rate_2015": 10.83
       },
       "geometry": {
@@ -148,9 +148,9 @@
         "Longitude": 14.12456,
         "Latitude": 47.59397,
         "Literacy_Rate": 98.0,
-        "mortality_rate": 6.434000000000001,
+        "mortality_rate": 6.43,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 44195.8175947748,
+        "gdp_per_capita_2015": 44195.82,
         "alcohol_rate_2015": 12.07
       },
       "geometry": {
@@ -170,7 +170,7 @@
         "Literacy_Rate": 99.8,
         "mortality_rate": 11.95,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 5500.31038244408,
+        "gdp_per_capita_2015": 5500.31,
         "alcohol_rate_2015": 4.58
       },
       "geometry": {
@@ -188,9 +188,9 @@
         "Longitude": 50.5344606,
         "Latitude": 26.1551249,
         "Literacy_Rate": 94.6,
-        "mortality_rate": 5.852,
+        "mortality_rate": 5.85,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 22634.0856475674,
+        "gdp_per_capita_2015": 22634.09,
         "alcohol_rate_2015": 1.3
       },
       "geometry": {
@@ -208,10 +208,10 @@
         "Longitude": 90.2934413,
         "Latitude": 24.4769288,
         "Literacy_Rate": 57.7,
-        "mortality_rate": 13.309999999999999,
+        "mortality_rate": 13.31,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 1248.45330989613,
-        "alcohol_rate_2015": 0.021
+        "gdp_per_capita_2015": 1248.45,
+        "alcohol_rate_2015": 0.02
       },
       "geometry": {
         "type": "Point",
@@ -230,7 +230,7 @@
         "Literacy_Rate": 99.7,
         "mortality_rate": 10.09,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 16558.8647849868,
+        "gdp_per_capita_2015": 16558.86,
         "alcohol_rate_2015": 9.33
       },
       "geometry": {
@@ -250,7 +250,7 @@
         "Literacy_Rate": 99.6,
         "mortality_rate": 16.3,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 5967.05220384914,
+        "gdp_per_capita_2015": 5967.05,
         "alcohol_rate_2015": 12.0
       },
       "geometry": {
@@ -268,9 +268,9 @@
         "Longitude": 4.6667145,
         "Latitude": 50.6402809,
         "Literacy_Rate": 99.0,
-        "mortality_rate": 7.187,
+        "mortality_rate": 7.19,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 41008.296719472,
+        "gdp_per_capita_2015": 41008.3,
         "alcohol_rate_2015": 11.82
       },
       "geometry": {
@@ -288,9 +288,9 @@
         "Longitude": -88.7600927,
         "Latitude": 16.8259793,
         "Literacy_Rate": 76.9,
-        "mortality_rate": 18.159999999999997,
+        "mortality_rate": 18.16,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 4805.19685237279,
+        "gdp_per_capita_2015": 4805.2,
         "alcohol_rate_2015": 6.74
       },
       "geometry": {
@@ -308,9 +308,9 @@
         "Longitude": 2.2584408,
         "Latitude": 9.5293472,
         "Literacy_Rate": 42.4,
-        "mortality_rate": 24.630000000000003,
+        "mortality_rate": 24.63,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 1076.79669785585,
+        "gdp_per_capita_2015": 1076.8,
         "alcohol_rate_2015": 2.97
       },
       "geometry": {
@@ -330,7 +330,7 @@
         "Literacy_Rate": 52.8,
         "mortality_rate": 21.11,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 2752.63017233678,
+        "gdp_per_capita_2015": 2752.63,
         "alcohol_rate_2015": 0.42
       },
       "geometry": {
@@ -348,9 +348,9 @@
         "Longitude": 24.5928742,
         "Latitude": -23.1681782,
         "Literacy_Rate": 85.1,
-        "mortality_rate": 26.330000000000002,
+        "mortality_rate": 26.33,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 6402.91018338391,
+        "gdp_per_capita_2015": 6402.91,
         "alcohol_rate_2015": 6.86
       },
       "geometry": {
@@ -370,7 +370,7 @@
         "Literacy_Rate": 90.4,
         "mortality_rate": 14.45,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 8813.98980647828,
+        "gdp_per_capita_2015": 8813.99,
         "alcohol_rate_2015": 7.86
       },
       "geometry": {
@@ -390,7 +390,7 @@
         "Literacy_Rate": 98.4,
         "mortality_rate": 13.62,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 7074.68102325059,
+        "gdp_per_capita_2015": 7074.68,
         "alcohol_rate_2015": 12.34
       },
       "geometry": {
@@ -410,7 +410,7 @@
         "Literacy_Rate": 28.7,
         "mortality_rate": 25.96,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 653.32726813947,
+        "gdp_per_capita_2015": 653.33,
         "alcohol_rate_2015": 11.83
       },
       "geometry": {
@@ -428,9 +428,9 @@
         "Longitude": 29.9324519,
         "Latitude": -3.426449,
         "Literacy_Rate": 67.2,
-        "mortality_rate": 29.610000000000003,
+        "mortality_rate": 29.61,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 305.511144099475,
+        "gdp_per_capita_2015": 305.51,
         "alcohol_rate_2015": 7.03
       },
       "geometry": {
@@ -450,7 +450,7 @@
         "Literacy_Rate": 73.9,
         "mortality_rate": 17.43,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 1162.90499489402,
+        "gdp_per_capita_2015": 1162.9,
         "alcohol_rate_2015": 6.37
       },
       "geometry": {
@@ -470,7 +470,7 @@
         "Literacy_Rate": 71.3,
         "mortality_rate": 35.5,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 1382.5097900241,
+        "gdp_per_capita_2015": 1382.51,
         "alcohol_rate_2015": 6.17
       },
       "geometry": {
@@ -490,7 +490,7 @@
         "Literacy_Rate": 56.6,
         "mortality_rate": 41.82,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 377.422917680195,
+        "gdp_per_capita_2015": 377.42,
         "alcohol_rate_2015": 2.43
       },
       "geometry": {
@@ -510,7 +510,7 @@
         "Literacy_Rate": 35.4,
         "mortality_rate": 36.7,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 776.019752284262,
+        "gdp_per_capita_2015": 776.02,
         "alcohol_rate_2015": 1.45
       },
       "geometry": {
@@ -528,9 +528,9 @@
         "Longitude": -71.3187697,
         "Latitude": -31.7613365,
         "Literacy_Rate": 98.6,
-        "mortality_rate": 8.814,
+        "mortality_rate": 8.81,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 13495.0106099649,
+        "gdp_per_capita_2015": 13495.01,
         "alcohol_rate_2015": 9.26
       },
       "geometry": {
@@ -548,9 +548,9 @@
         "Longitude": 104.999927,
         "Latitude": 35.000074,
         "Literacy_Rate": 95.1,
-        "mortality_rate": 8.152,
+        "mortality_rate": 8.15,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 8016.43143498003,
+        "gdp_per_capita_2015": 8016.43,
         "alcohol_rate_2015": 7.15
       },
       "geometry": {
@@ -570,7 +570,7 @@
         "Literacy_Rate": 93.6,
         "mortality_rate": 13.81,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 6175.87602970258,
+        "gdp_per_capita_2015": 6175.88,
         "alcohol_rate_2015": 5.78
       },
       "geometry": {
@@ -590,7 +590,7 @@
         "Literacy_Rate": 75.5,
         "mortality_rate": 22.73,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 1242.58560784999,
+        "gdp_per_capita_2015": 1242.59,
         "alcohol_rate_2015": 0.88
       },
       "geometry": {
@@ -608,9 +608,9 @@
         "Longitude": -84.0739102,
         "Latitude": 10.2735633,
         "Literacy_Rate": 96.3,
-        "mortality_rate": 9.717,
+        "mortality_rate": 9.72,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 11642.7780517123,
+        "gdp_per_capita_2015": 11642.78,
         "alcohol_rate_2015": 4.76
       },
       "geometry": {
@@ -628,9 +628,9 @@
         "Longitude": 17.0118954,
         "Latitude": 45.5643442,
         "Literacy_Rate": 98.9,
-        "mortality_rate": 9.558,
+        "mortality_rate": 9.56,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 11933.3773788281,
+        "gdp_per_capita_2015": 11933.38,
         "alcohol_rate_2015": 9.07
       },
       "geometry": {
@@ -648,9 +648,9 @@
         "Longitude": -80.8328748,
         "Latitude": 23.0131338,
         "Literacy_Rate": 99.8,
-        "mortality_rate": 9.434000000000001,
+        "mortality_rate": 9.43,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 7694.01463710941,
+        "gdp_per_capita_2015": 7694.01,
         "alcohol_rate_2015": 5.67
       },
       "geometry": {
@@ -668,9 +668,9 @@
         "Longitude": 33.1451285,
         "Latitude": 34.9823018,
         "Literacy_Rate": 98.7,
-        "mortality_rate": 5.664000000000001,
+        "mortality_rate": 5.66,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 23408.3359375,
+        "gdp_per_capita_2015": 23408.34,
         "alcohol_rate_2015": 10.76
       },
       "geometry": {
@@ -688,9 +688,9 @@
         "Longitude": 10.3333283,
         "Latitude": 55.670249,
         "Literacy_Rate": 99.0,
-        "mortality_rate": 6.627,
+        "mortality_rate": 6.63,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 53254.8563700916,
+        "gdp_per_capita_2015": 53254.86,
         "alcohol_rate_2015": 10.36
       },
       "geometry": {
@@ -708,9 +708,9 @@
         "Longitude": 42.8453061,
         "Latitude": 11.8145966,
         "Literacy_Rate": 67.9,
-        "mortality_rate": 24.759999999999998,
+        "mortality_rate": 24.76,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 2652.51322808034,
+        "gdp_per_capita_2015": 2652.51,
         "alcohol_rate_2015": 0.49
       },
       "geometry": {
@@ -730,7 +730,7 @@
         "Literacy_Rate": 90.1,
         "mortality_rate": 16.31,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 6921.52059432776,
+        "gdp_per_capita_2015": 6921.52,
         "alcohol_rate_2015": 6.61
       },
       "geometry": {
@@ -748,9 +748,9 @@
         "Longitude": -79.3666965,
         "Latitude": -1.3397668,
         "Literacy_Rate": 91.6,
-        "mortality_rate": 11.700000000000001,
+        "mortality_rate": 11.7,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 6124.49088707134,
+        "gdp_per_capita_2015": 6124.49,
         "alcohol_rate_2015": 4.98
       },
       "geometry": {
@@ -770,7 +770,7 @@
         "Literacy_Rate": 84.5,
         "mortality_rate": 17.95,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 3705.57970353453,
+        "gdp_per_capita_2015": 3705.58,
         "alcohol_rate_2015": 3.59
       },
       "geometry": {
@@ -790,7 +790,7 @@
         "Literacy_Rate": 94.2,
         "mortality_rate": 30.09,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 11283.3980158847,
+        "gdp_per_capita_2015": 11283.4,
         "alcohol_rate_2015": 9.08
       },
       "geometry": {
@@ -810,7 +810,7 @@
         "Literacy_Rate": 99.8,
         "mortality_rate": 11.58,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 17402.0376128079,
+        "gdp_per_capita_2015": 17402.04,
         "alcohol_rate_2015": 12.39
       },
       "geometry": {
@@ -830,7 +830,7 @@
         "Literacy_Rate": 39.0,
         "mortality_rate": 22.47,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 640.541923075422,
+        "gdp_per_capita_2015": 640.54,
         "alcohol_rate_2015": 2.19
       },
       "geometry": {
@@ -850,7 +850,7 @@
         "Literacy_Rate": 93.7,
         "mortality_rate": 18.81,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 5390.71420703085,
+        "gdp_per_capita_2015": 5390.71,
         "alcohol_rate_2015": 3.33
       },
       "geometry": {
@@ -868,9 +868,9 @@
         "Longitude": 25.9209164,
         "Latitude": 63.2467777,
         "Literacy_Rate": 100.0,
-        "mortality_rate": 6.952,
+        "mortality_rate": 6.95,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 42801.9081167285,
+        "gdp_per_capita_2015": 42801.91,
         "alcohol_rate_2015": 11.18
       },
       "geometry": {
@@ -888,9 +888,9 @@
         "Longitude": 1.8883335,
         "Latitude": 46.603354,
         "Literacy_Rate": 99.0,
-        "mortality_rate": 7.307999999999999,
+        "mortality_rate": 7.31,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 36652.9223052178,
+        "gdp_per_capita_2015": 36652.92,
         "alcohol_rate_2015": 12.64
       },
       "geometry": {
@@ -910,7 +910,7 @@
         "Literacy_Rate": 89.0,
         "mortality_rate": 22.82,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 7384.70070393071,
+        "gdp_per_capita_2015": 7384.7,
         "alcohol_rate_2015": 9.57
       },
       "geometry": {
@@ -925,19 +925,19 @@
       "type": "Feature",
       "properties": {
         "Country": "Georgia",
-        "Longitude": -83.1137366,
-        "Latitude": 32.3293809,
+        "Longitude": 42.3154,
+        "Latitude": 43.3569,
         "Literacy_Rate": 99.7,
         "mortality_rate": 15.64,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 4014.18594419329,
+        "gdp_per_capita_2015": 4014.19,
         "alcohol_rate_2015": 9.61
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.1137366,
-          32.3293809
+          42.3154,
+          43.3569
         ]
       }
     },
@@ -948,9 +948,9 @@
         "Longitude": 10.4478313,
         "Latitude": 51.1638175,
         "Literacy_Rate": 99.0,
-        "mortality_rate": 7.119000000000001,
+        "mortality_rate": 7.12,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 41103.2564363768,
+        "gdp_per_capita_2015": 41103.26,
         "alcohol_rate_2015": 13.06
       },
       "geometry": {
@@ -968,9 +968,9 @@
         "Longitude": -1.0800271,
         "Latitude": 8.0300284,
         "Literacy_Rate": 71.5,
-        "mortality_rate": 24.490000000000002,
+        "mortality_rate": 24.49,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 1774.07477092508,
+        "gdp_per_capita_2015": 1774.07,
         "alcohol_rate_2015": 3.12
       },
       "geometry": {
@@ -988,9 +988,9 @@
         "Longitude": 21.9877132,
         "Latitude": 38.9953683,
         "Literacy_Rate": 97.3,
-        "mortality_rate": 6.7589999999999995,
+        "mortality_rate": 6.76,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 18083.8779056547,
+        "gdp_per_capita_2015": 18083.88,
         "alcohol_rate_2015": 10.49
       },
       "geometry": {
@@ -1010,7 +1010,7 @@
         "Literacy_Rate": 96.0,
         "mortality_rate": 14.13,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 9096.53865246322,
+        "gdp_per_capita_2015": 9096.54,
         "alcohol_rate_2015": 9.07
       },
       "geometry": {
@@ -1030,7 +1030,7 @@
         "Literacy_Rate": 75.9,
         "mortality_rate": 16.47,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 3994.63691288475,
+        "gdp_per_capita_2015": 3994.64,
         "alcohol_rate_2015": 2.55
       },
       "geometry": {
@@ -1050,7 +1050,7 @@
         "Literacy_Rate": 41.0,
         "mortality_rate": 27.71,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 769.255475432822,
+        "gdp_per_capita_2015": 769.26,
         "alcohol_rate_2015": 1.07
       },
       "geometry": {
@@ -1070,7 +1070,7 @@
         "Literacy_Rate": 55.3,
         "mortality_rate": 27.82,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 603.399381547733,
+        "gdp_per_capita_2015": 603.4,
         "alcohol_rate_2015": 5.05
       },
       "geometry": {
@@ -1088,9 +1088,9 @@
         "Longitude": -58.6416891,
         "Latitude": 4.8417097,
         "Literacy_Rate": 91.8,
-        "mortality_rate": 26.389999999999997,
+        "mortality_rate": 26.39,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 5576.82585151355,
+        "gdp_per_capita_2015": 5576.83,
         "alcohol_rate_2015": 7.35
       },
       "geometry": {
@@ -1108,9 +1108,9 @@
         "Longitude": -72.3570972,
         "Latitude": 19.1399952,
         "Literacy_Rate": 48.7,
-        "mortality_rate": 24.459999999999997,
+        "mortality_rate": 24.46,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 1386.85419078846,
+        "gdp_per_capita_2015": 1386.85,
         "alcohol_rate_2015": 2.69
       },
       "geometry": {
@@ -1128,9 +1128,9 @@
         "Longitude": -86.0755145,
         "Latitude": 15.2572432,
         "Literacy_Rate": 85.1,
-        "mortality_rate": 14.649999999999999,
+        "mortality_rate": 14.65,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 2302.20441093316,
+        "gdp_per_capita_2015": 2302.2,
         "alcohol_rate_2015": 3.49
       },
       "geometry": {
@@ -1150,7 +1150,7 @@
         "Literacy_Rate": 99.0,
         "mortality_rate": 13.23,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 12720.7120220668,
+        "gdp_per_capita_2015": 12720.71,
         "alcohol_rate_2015": 11.6
       },
       "geometry": {
@@ -1168,9 +1168,9 @@
         "Longitude": -18.1059013,
         "Latitude": 64.9841821,
         "Literacy_Rate": 99.0,
-        "mortality_rate": 5.438000000000001,
+        "mortality_rate": 5.44,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 52951.6815110898,
+        "gdp_per_capita_2015": 52951.68,
         "alcohol_rate_2015": 8.74
       },
       "geometry": {
@@ -1190,7 +1190,7 @@
         "Literacy_Rate": 62.8,
         "mortality_rate": 18.05,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 1605.60544457087,
+        "gdp_per_capita_2015": 1605.61,
         "alcohol_rate_2015": 5.54
       },
       "geometry": {
@@ -1210,7 +1210,7 @@
         "Literacy_Rate": 92.8,
         "mortality_rate": 17.76,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 3331.69511469189,
+        "gdp_per_capita_2015": 3331.7,
         "alcohol_rate_2015": 0.6
       },
       "geometry": {
@@ -1230,7 +1230,7 @@
         "Literacy_Rate": 78.5,
         "mortality_rate": 18.03,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 4688.31801743466,
+        "gdp_per_capita_2015": 4688.32,
         "alcohol_rate_2015": 0.37
       },
       "geometry": {
@@ -1248,9 +1248,9 @@
         "Longitude": -7.9794599,
         "Latitude": 52.865196,
         "Literacy_Rate": 99.0,
-        "mortality_rate": 6.277000000000001,
+        "mortality_rate": 6.28,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 62012.4849258149,
+        "gdp_per_capita_2015": 62012.48,
         "alcohol_rate_2015": 12.47
       },
       "geometry": {
@@ -1268,9 +1268,9 @@
         "Longitude": 34.8594762,
         "Latitude": 30.8124247,
         "Literacy_Rate": 97.1,
-        "mortality_rate": 5.766,
+        "mortality_rate": 5.77,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 35808.4364289727,
+        "gdp_per_capita_2015": 35808.44,
         "alcohol_rate_2015": 3.86
       },
       "geometry": {
@@ -1288,9 +1288,9 @@
         "Longitude": 12.674297,
         "Latitude": 42.6384261,
         "Literacy_Rate": 99.0,
-        "mortality_rate": 5.486,
+        "mortality_rate": 5.49,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 30242.3861352184,
+        "gdp_per_capita_2015": 30242.39,
         "alcohol_rate_2015": 7.59
       },
       "geometry": {
@@ -1310,7 +1310,7 @@
         "Literacy_Rate": 87.0,
         "mortality_rate": 13.26,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 4907.927415189,
+        "gdp_per_capita_2015": 4907.93,
         "alcohol_rate_2015": 4.19
       },
       "geometry": {
@@ -1328,9 +1328,9 @@
         "Longitude": 139.2394179,
         "Latitude": 36.5748441,
         "Literacy_Rate": 99.0,
-        "mortality_rate": 5.257,
+        "mortality_rate": 5.26,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 34960.6393843385,
+        "gdp_per_capita_2015": 34960.64,
         "alcohol_rate_2015": 7.87
       },
       "geometry": {
@@ -1350,7 +1350,7 @@
         "Literacy_Rate": 95.9,
         "mortality_rate": 11.15,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 4164.10876894014,
+        "gdp_per_capita_2015": 4164.11,
         "alcohol_rate_2015": 0.69
       },
       "geometry": {
@@ -1370,7 +1370,7 @@
         "Literacy_Rate": 99.7,
         "mortality_rate": 19.25,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 10510.7718884149,
+        "gdp_per_capita_2015": 10510.77,
         "alcohol_rate_2015": 4.66
       },
       "geometry": {
@@ -1388,9 +1388,9 @@
         "Longitude": 38.4313975,
         "Latitude": 1.4419683,
         "Literacy_Rate": 87.4,
-        "mortality_rate": 23.169999999999998,
+        "mortality_rate": 23.17,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 1464.55400904329,
+        "gdp_per_capita_2015": 1464.55,
         "alcohol_rate_2015": 2.77
       },
       "geometry": {
@@ -1408,10 +1408,10 @@
         "Longitude": 47.4979476,
         "Latitude": 29.2733964,
         "Literacy_Rate": 93.9,
-        "mortality_rate": 8.047,
+        "mortality_rate": 8.05,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 29869.552753237,
-        "alcohol_rate_2015": 0.003
+        "gdp_per_capita_2015": 29869.55,
+        "alcohol_rate_2015": 0.0
       },
       "geometry": {
         "type": "Point",
@@ -1428,9 +1428,9 @@
         "Longitude": 24.7537645,
         "Latitude": 56.8406494,
         "Literacy_Rate": 99.8,
-        "mortality_rate": 15.430000000000001,
+        "mortality_rate": 15.43,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 13786.4567953114,
+        "gdp_per_capita_2015": 13786.46,
         "alcohol_rate_2015": 12.64
       },
       "geometry": {
@@ -1448,9 +1448,9 @@
         "Longitude": 35.843409,
         "Latitude": 33.8750629,
         "Literacy_Rate": 89.6,
-        "mortality_rate": 9.844,
+        "mortality_rate": 9.84,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 7643.00871833192,
+        "gdp_per_capita_2015": 7643.01,
         "alcohol_rate_2015": 1.65
       },
       "geometry": {
@@ -1468,9 +1468,9 @@
         "Longitude": 28.3350193,
         "Latitude": -29.6039267,
         "Literacy_Rate": 89.6,
-        "mortality_rate": 49.830000000000005,
+        "mortality_rate": 49.83,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 1146.06468787308,
+        "gdp_per_capita_2015": 1146.06,
         "alcohol_rate_2015": 4.8
       },
       "geometry": {
@@ -1490,7 +1490,7 @@
         "Literacy_Rate": 60.8,
         "mortality_rate": 24.06,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 721.581050523128,
+        "gdp_per_capita_2015": 721.58,
         "alcohol_rate_2015": 5.7
       },
       "geometry": {
@@ -1510,8 +1510,8 @@
         "Literacy_Rate": 89.5,
         "mortality_rate": 14.69,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 7590.44298074577,
-        "alcohol_rate_2015": 0.029
+        "gdp_per_capita_2015": 7590.44,
+        "alcohol_rate_2015": 0.03
       },
       "geometry": {
         "type": "Point",
@@ -1528,9 +1528,9 @@
         "Longitude": 23.7499997,
         "Latitude": 55.3500003,
         "Literacy_Rate": 99.7,
-        "mortality_rate": 16.540000000000003,
+        "mortality_rate": 16.54,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 14263.9645773495,
+        "gdp_per_capita_2015": 14263.96,
         "alcohol_rate_2015": 15.38
       },
       "geometry": {
@@ -1548,9 +1548,9 @@
         "Longitude": 6.1296751,
         "Latitude": 49.8158683,
         "Literacy_Rate": 100.0,
-        "mortality_rate": 5.189,
+        "mortality_rate": 5.19,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 105462.012584423,
+        "gdp_per_capita_2015": 105462.01,
         "alcohol_rate_2015": 13.18
       },
       "geometry": {
@@ -1568,9 +1568,9 @@
         "Longitude": 46.4416422,
         "Latitude": -18.9249604,
         "Literacy_Rate": 64.5,
-        "mortality_rate": 22.009999999999998,
+        "mortality_rate": 22.01,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 467.235431614314,
+        "gdp_per_capita_2015": 467.24,
         "alcohol_rate_2015": 1.88
       },
       "geometry": {
@@ -1588,9 +1588,9 @@
         "Longitude": 33.9301963,
         "Latitude": -13.2687204,
         "Literacy_Rate": 74.8,
-        "mortality_rate": 26.639999999999997,
+        "mortality_rate": 26.64,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 380.596987683774,
+        "gdp_per_capita_2015": 380.6,
         "alcohol_rate_2015": 3.62
       },
       "geometry": {
@@ -1608,9 +1608,9 @@
         "Longitude": 102.2656823,
         "Latitude": 4.5693754,
         "Literacy_Rate": 93.1,
-        "mortality_rate": 12.559999999999999,
+        "mortality_rate": 12.56,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 9955.24272167626,
+        "gdp_per_capita_2015": 9955.24,
         "alcohol_rate_2015": 0.85
       },
       "geometry": {
@@ -1628,9 +1628,9 @@
         "Longitude": 73.2244152,
         "Latitude": 3.7203503,
         "Literacy_Rate": 98.4,
-        "mortality_rate": 5.404,
+        "mortality_rate": 5.4,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 9033.41027034576,
+        "gdp_per_capita_2015": 9033.41,
         "alcohol_rate_2015": 2.07
       },
       "geometry": {
@@ -1648,9 +1648,9 @@
         "Longitude": -2.2900239,
         "Latitude": 16.3700359,
         "Literacy_Rate": 33.4,
-        "mortality_rate": 27.750000000000004,
+        "mortality_rate": 27.75,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 751.472889186889,
+        "gdp_per_capita_2015": 751.47,
         "alcohol_rate_2015": 1.25
       },
       "geometry": {
@@ -1668,9 +1668,9 @@
         "Longitude": 14.4476911,
         "Latitude": 35.8885993,
         "Literacy_Rate": 92.4,
-        "mortality_rate": 5.518,
+        "mortality_rate": 5.52,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 24921.6036820869,
+        "gdp_per_capita_2015": 24921.6,
         "alcohol_rate_2015": 7.56
       },
       "geometry": {
@@ -1690,8 +1690,8 @@
         "Literacy_Rate": 58.6,
         "mortality_rate": 20.4,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 1524.07331727933,
-        "alcohol_rate_2015": 0.033
+        "gdp_per_capita_2015": 1524.07,
+        "alcohol_rate_2015": 0.03
       },
       "geometry": {
         "type": "Point",
@@ -1708,9 +1708,9 @@
         "Longitude": 57.5703566,
         "Latitude": -20.2759451,
         "Literacy_Rate": 88.8,
-        "mortality_rate": 14.780000000000001,
+        "mortality_rate": 14.78,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 9260.44730250635,
+        "gdp_per_capita_2015": 9260.45,
         "alcohol_rate_2015": 3.94
       },
       "geometry": {
@@ -1728,9 +1728,9 @@
         "Longitude": -102.0077097,
         "Latitude": 23.6585116,
         "Literacy_Rate": 93.5,
-        "mortality_rate": 12.840000000000002,
+        "mortality_rate": 12.84,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 9616.64555810607,
+        "gdp_per_capita_2015": 9616.65,
         "alcohol_rate_2015": 4.92
       },
       "geometry": {
@@ -1750,7 +1750,7 @@
         "Literacy_Rate": 97.4,
         "mortality_rate": 21.29,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 3875.32167504717,
+        "gdp_per_capita_2015": 3875.32,
         "alcohol_rate_2015": 10.97
       },
       "geometry": {
@@ -1768,9 +1768,9 @@
         "Longitude": -7.3362482,
         "Latitude": 31.1728205,
         "Literacy_Rate": 67.1,
-        "mortality_rate": 7.015000000000001,
+        "mortality_rate": 7.02,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 2875.25805664063,
+        "gdp_per_capita_2015": 2875.26,
         "alcohol_rate_2015": 0.7
       },
       "geometry": {
@@ -1790,7 +1790,7 @@
         "Literacy_Rate": 56.1,
         "mortality_rate": 35.87,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 589.85943137707,
+        "gdp_per_capita_2015": 589.86,
         "alcohol_rate_2015": 2.19
       },
       "geometry": {
@@ -1808,9 +1808,9 @@
         "Longitude": 17.3231107,
         "Latitude": -23.2335499,
         "Literacy_Rate": 88.8,
-        "mortality_rate": 29.580000000000002,
+        "mortality_rate": 29.58,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 4896.61526001377,
+        "gdp_per_capita_2015": 4896.62,
         "alcohol_rate_2015": 5.23
       },
       "geometry": {
@@ -1828,9 +1828,9 @@
         "Longitude": 84.0917139,
         "Latitude": 28.1083929,
         "Literacy_Rate": 57.4,
-        "mortality_rate": 16.619999999999997,
+        "mortality_rate": 16.62,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 901.74960773293,
+        "gdp_per_capita_2015": 901.75,
         "alcohol_rate_2015": 2.05
       },
       "geometry": {
@@ -1848,9 +1848,9 @@
         "Longitude": 5.6343227,
         "Latitude": 52.2434979,
         "Literacy_Rate": 99.0,
-        "mortality_rate": 5.832,
+        "mortality_rate": 5.83,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 45193.4032187971,
+        "gdp_per_capita_2015": 45193.4,
         "alcohol_rate_2015": 9.55
       },
       "geometry": {
@@ -1868,9 +1868,9 @@
         "Longitude": 172.8344077,
         "Latitude": -41.5000831,
         "Literacy_Rate": 99.0,
-        "mortality_rate": 6.668,
+        "mortality_rate": 6.67,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 38630.7265886928,
+        "gdp_per_capita_2015": 38630.73,
         "alcohol_rate_2015": 10.44
       },
       "geometry": {
@@ -1888,9 +1888,9 @@
         "Longitude": -85.2936911,
         "Latitude": 12.6090157,
         "Literacy_Rate": 78.0,
-        "mortality_rate": 14.790000000000001,
+        "mortality_rate": 14.79,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 2049.8516660809,
+        "gdp_per_capita_2015": 2049.85,
         "alcohol_rate_2015": 5.03
       },
       "geometry": {
@@ -1910,7 +1910,7 @@
         "Literacy_Rate": 28.7,
         "mortality_rate": 25.7,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 484.153137350801,
+        "gdp_per_capita_2015": 484.15,
         "alcohol_rate_2015": 0.55
       },
       "geometry": {
@@ -1930,7 +1930,7 @@
         "Literacy_Rate": 61.3,
         "mortality_rate": 35.54,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 2687.48005643212,
+        "gdp_per_capita_2015": 2687.48,
         "alcohol_rate_2015": 10.81
       },
       "geometry": {
@@ -1948,9 +1948,9 @@
         "Longitude": 9.0999715,
         "Latitude": 60.5000209,
         "Literacy_Rate": 100.0,
-        "mortality_rate": 5.366,
+        "mortality_rate": 5.37,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 74355.5158575643,
+        "gdp_per_capita_2015": 74355.52,
         "alcohol_rate_2015": 7.52
       },
       "geometry": {
@@ -1968,9 +1968,9 @@
         "Longitude": 57.0036901,
         "Latitude": 21.0000287,
         "Literacy_Rate": 86.9,
-        "mortality_rate": 9.797,
+        "mortality_rate": 9.8,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 18444.9270020773,
+        "gdp_per_capita_2015": 18444.93,
         "alcohol_rate_2015": 0.77
       },
       "geometry": {
@@ -1990,7 +1990,7 @@
         "Literacy_Rate": 54.9,
         "mortality_rate": 16.6,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 1356.66783065763,
+        "gdp_per_capita_2015": 1356.67,
         "alcohol_rate_2015": 0.29
       },
       "geometry": {
@@ -2010,7 +2010,7 @@
         "Literacy_Rate": 94.1,
         "mortality_rate": 11.19,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 13630.3011472878,
+        "gdp_per_capita_2015": 13630.3,
         "alcohol_rate_2015": 7.71
       },
       "geometry": {
@@ -2030,7 +2030,7 @@
         "Literacy_Rate": 62.4,
         "mortality_rate": 22.55,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 2679.34657921324,
+        "gdp_per_capita_2015": 2679.35,
         "alcohol_rate_2015": 1.39
       },
       "geometry": {
@@ -2048,9 +2048,9 @@
         "Longitude": -58.1693445,
         "Latitude": -23.3165935,
         "Literacy_Rate": 93.9,
-        "mortality_rate": 14.580000000000002,
+        "mortality_rate": 14.58,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 5413.77602061858,
+        "gdp_per_capita_2015": 5413.78,
         "alcohol_rate_2015": 7.26
       },
       "geometry": {
@@ -2070,7 +2070,7 @@
         "Literacy_Rate": 89.6,
         "mortality_rate": 12.55,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 6229.10067398112,
+        "gdp_per_capita_2015": 6229.1,
         "alcohol_rate_2015": 6.63
       },
       "geometry": {
@@ -2090,7 +2090,7 @@
         "Literacy_Rate": 95.4,
         "mortality_rate": 19.5,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 3001.04318170863,
+        "gdp_per_capita_2015": 3001.04,
         "alcohol_rate_2015": 6.7
       },
       "geometry": {
@@ -2110,7 +2110,7 @@
         "Literacy_Rate": 99.7,
         "mortality_rate": 11.48,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 12578.4954734362,
+        "gdp_per_capita_2015": 12578.5,
         "alcohol_rate_2015": 11.63
       },
       "geometry": {
@@ -2128,9 +2128,9 @@
         "Longitude": -7.8896263,
         "Latitude": 40.0332629,
         "Literacy_Rate": 95.4,
-        "mortality_rate": 7.651999999999999,
+        "mortality_rate": 7.65,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 19250.1065376852,
+        "gdp_per_capita_2015": 19250.11,
         "alcohol_rate_2015": 11.88
       },
       "geometry": {
@@ -2148,9 +2148,9 @@
         "Longitude": 51.2295295,
         "Latitude": 25.3336984,
         "Literacy_Rate": 96.3,
-        "mortality_rate": 6.281000000000001,
+        "mortality_rate": 6.28,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 63039.1126261242,
+        "gdp_per_capita_2015": 63039.11,
         "alcohol_rate_2015": 1.62
       },
       "geometry": {
@@ -2170,7 +2170,7 @@
         "Literacy_Rate": 97.7,
         "mortality_rate": 13.59,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 8969.14892146193,
+        "gdp_per_capita_2015": 8969.15,
         "alcohol_rate_2015": 11.64
       },
       "geometry": {
@@ -2190,7 +2190,7 @@
         "Literacy_Rate": 71.1,
         "mortality_rate": 20.32,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 751.110505478611,
+        "gdp_per_capita_2015": 751.11,
         "alcohol_rate_2015": 9.26
       },
       "geometry": {
@@ -2210,7 +2210,7 @@
         "Literacy_Rate": 98.8,
         "mortality_rate": 11.26,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 4073.72908299755,
+        "gdp_per_capita_2015": 4073.73,
         "alcohol_rate_2015": 2.59
       },
       "geometry": {
@@ -2228,9 +2228,9 @@
         "Longitude": 42.3528328,
         "Latitude": 25.6242618,
         "Literacy_Rate": 87.2,
-        "mortality_rate": 9.049999999999999,
+        "mortality_rate": 9.05,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 20627.9217793895,
+        "gdp_per_capita_2015": 20627.92,
         "alcohol_rate_2015": 0.2
       },
       "geometry": {
@@ -2250,7 +2250,7 @@
         "Literacy_Rate": 49.7,
         "mortality_rate": 18.89,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 1219.24941513302,
+        "gdp_per_capita_2015": 1219.25,
         "alcohol_rate_2015": 0.73
       },
       "geometry": {
@@ -2270,7 +2270,7 @@
         "Literacy_Rate": 91.8,
         "mortality_rate": 16.56,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 15157.5018256876,
+        "gdp_per_capita_2015": 15157.5,
         "alcohol_rate_2015": 18.35
       },
       "geometry": {
@@ -2290,7 +2290,7 @@
         "Literacy_Rate": 43.3,
         "mortality_rate": 40.37,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 588.228862794816,
+        "gdp_per_capita_2015": 588.23,
         "alcohol_rate_2015": 5.63
       },
       "geometry": {
@@ -2308,9 +2308,9 @@
         "Longitude": 103.8194992,
         "Latitude": 1.357107,
         "Literacy_Rate": 95.9,
-        "mortality_rate": 5.356000000000001,
+        "mortality_rate": 5.36,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 55646.6187469505,
+        "gdp_per_capita_2015": 55646.62,
         "alcohol_rate_2015": 2.07
       },
       "geometry": {
@@ -2328,9 +2328,9 @@
         "Longitude": 14.4808369,
         "Latitude": 45.8133113,
         "Literacy_Rate": 99.7,
-        "mortality_rate": 7.418000000000001,
+        "mortality_rate": 7.42,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 20890.1664304173,
+        "gdp_per_capita_2015": 20890.17,
         "alcohol_rate_2015": 12.74
       },
       "geometry": {
@@ -2350,7 +2350,7 @@
         "Literacy_Rate": 84.1,
         "mortality_rate": 14.88,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 2167.15539406206,
+        "gdp_per_capita_2015": 2167.16,
         "alcohol_rate_2015": 1.55
       },
       "geometry": {
@@ -2368,9 +2368,9 @@
         "Longitude": 24.991639,
         "Latitude": -28.8166236,
         "Literacy_Rate": 93.0,
-        "mortality_rate": 30.460000000000004,
+        "mortality_rate": 30.46,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 6259.83968110571,
+        "gdp_per_capita_2015": 6259.84,
         "alcohol_rate_2015": 9.61
       },
       "geometry": {
@@ -2388,9 +2388,9 @@
         "Longitude": -4.8379791,
         "Latitude": 39.3260685,
         "Literacy_Rate": 97.7,
-        "mortality_rate": 5.771,
+        "mortality_rate": 5.77,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 25742.3688346767,
+        "gdp_per_capita_2015": 25742.37,
         "alcohol_rate_2015": 11.32
       },
       "geometry": {
@@ -2410,7 +2410,7 @@
         "Literacy_Rate": 91.2,
         "mortality_rate": 13.11,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 3843.78067184442,
+        "gdp_per_capita_2015": 3843.78,
         "alcohol_rate_2015": 4.1
       },
       "geometry": {
@@ -2428,9 +2428,9 @@
         "Longitude": -56.0771187,
         "Latitude": 4.1413025,
         "Literacy_Rate": 94.7,
-        "mortality_rate": 18.240000000000002,
+        "mortality_rate": 18.24,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 9168.23715664009,
+        "gdp_per_capita_2015": 9168.24,
         "alcohol_rate_2015": 5.81
       },
       "geometry": {
@@ -2448,9 +2448,9 @@
         "Longitude": 14.5208584,
         "Latitude": 59.6749712,
         "Literacy_Rate": 99.0,
-        "mortality_rate": 5.396,
+        "mortality_rate": 5.4,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 51545.4836095322,
+        "gdp_per_capita_2015": 51545.48,
         "alcohol_rate_2015": 9.13
       },
       "geometry": {
@@ -2468,9 +2468,9 @@
         "Longitude": 8.2319736,
         "Latitude": 46.7985624,
         "Literacy_Rate": 99.0,
-        "mortality_rate": 4.961,
+        "mortality_rate": 4.96,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 84776.1421659748,
+        "gdp_per_capita_2015": 84776.14,
         "alcohol_rate_2015": 11.58
       },
       "geometry": {
@@ -2488,9 +2488,9 @@
         "Longitude": 70.8156541,
         "Latitude": 38.6281733,
         "Literacy_Rate": 99.7,
-        "mortality_rate": 12.490000000000002,
+        "mortality_rate": 12.49,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 978.404981180605,
+        "gdp_per_capita_2015": 978.4,
         "alcohol_rate_2015": 3.11
       },
       "geometry": {
@@ -2508,9 +2508,9 @@
         "Longitude": 100.83273,
         "Latitude": 14.8971921,
         "Literacy_Rate": 93.5,
-        "mortality_rate": 14.899999999999999,
+        "mortality_rate": 14.9,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 5840.05306687798,
+        "gdp_per_capita_2015": 5840.05,
         "alcohol_rate_2015": 8.36
       },
       "geometry": {
@@ -2530,7 +2530,7 @@
         "Literacy_Rate": 60.4,
         "mortality_rate": 27.1,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 570.909967175308,
+        "gdp_per_capita_2015": 570.91,
         "alcohol_rate_2015": 2.37
       },
       "geometry": {
@@ -2550,7 +2550,7 @@
         "Literacy_Rate": 99.0,
         "mortality_rate": 13.48,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 4336.23960272654,
+        "gdp_per_capita_2015": 4336.24,
         "alcohol_rate_2015": 0.68
       },
       "geometry": {
@@ -2570,7 +2570,7 @@
         "Literacy_Rate": 98.8,
         "mortality_rate": 17.29,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 18383.5386974985,
+        "gdp_per_capita_2015": 18383.54,
         "alcohol_rate_2015": 6.88
       },
       "geometry": {
@@ -2588,9 +2588,9 @@
         "Longitude": 9.400138,
         "Latitude": 33.8439408,
         "Literacy_Rate": 79.1,
-        "mortality_rate": 9.284999999999998,
+        "mortality_rate": 9.28,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 4094.84160230737,
+        "gdp_per_capita_2015": 4094.84,
         "alcohol_rate_2015": 1.99
       },
       "geometry": {
@@ -2610,7 +2610,7 @@
         "Literacy_Rate": 99.6,
         "mortality_rate": 19.82,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 6432.68532538494,
+        "gdp_per_capita_2015": 6432.69,
         "alcohol_rate_2015": 5.3
       },
       "geometry": {
@@ -2628,9 +2628,9 @@
         "Longitude": 32.2166578,
         "Latitude": 1.5333554,
         "Literacy_Rate": 73.2,
-        "mortality_rate": 29.299999999999997,
+        "mortality_rate": 29.3,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 847.267628934983,
+        "gdp_per_capita_2015": 847.27,
         "alcohol_rate_2015": 15.14
       },
       "geometry": {
@@ -2648,9 +2648,9 @@
         "Longitude": 31.2718321,
         "Latitude": 49.4871968,
         "Literacy_Rate": 99.7,
-        "mortality_rate": 18.769999999999996,
+        "mortality_rate": 18.77,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 2124.66235351563,
+        "gdp_per_capita_2015": 2124.66,
         "alcohol_rate_2015": 10.16
       },
       "geometry": {
@@ -2668,9 +2668,9 @@
         "Longitude": 53.9994829,
         "Latitude": 24.0002488,
         "Literacy_Rate": 90.0,
-        "mortality_rate": 7.504000000000001,
+        "mortality_rate": 7.5,
         "mortality_state": 1,
-        "gdp_per_capita_2015": 38663.388255736,
+        "gdp_per_capita_2015": 38663.39,
         "alcohol_rate_2015": 3.79
       },
       "geometry": {
@@ -2690,7 +2690,7 @@
         "Literacy_Rate": 98.1,
         "mortality_rate": 11.42,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 15613.7459681824,
+        "gdp_per_capita_2015": 15613.75,
         "alcohol_rate_2015": 6.99
       },
       "geometry": {
@@ -2708,9 +2708,9 @@
         "Longitude": 63.9528098,
         "Latitude": 41.32373,
         "Literacy_Rate": 99.4,
-        "mortality_rate": 13.350000000000001,
+        "mortality_rate": 13.35,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 2753.97107219949,
+        "gdp_per_capita_2015": 2753.97,
         "alcohol_rate_2015": 2.59
       },
       "geometry": {
@@ -2730,7 +2730,7 @@
         "Literacy_Rate": 83.2,
         "mortality_rate": 13.16,
         "mortality_state": 2,
-        "gdp_per_capita_2015": 2695.66618597973,
+        "gdp_per_capita_2015": 2695.67,
         "alcohol_rate_2015": 2.14
       },
       "geometry": {
@@ -2748,9 +2748,9 @@
         "Longitude": 27.5589884,
         "Latitude": -14.5189121,
         "Literacy_Rate": 61.4,
-        "mortality_rate": 29.460000000000004,
+        "mortality_rate": 29.46,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 1338.29092708188,
+        "gdp_per_capita_2015": 1338.29,
         "alcohol_rate_2015": 6.89
       },
       "geometry": {
@@ -2770,7 +2770,7 @@
         "Literacy_Rate": 83.6,
         "mortality_rate": 34.55,
         "mortality_state": 3,
-        "gdp_per_capita_2015": 1445.06970213198,
+        "gdp_per_capita_2015": 1445.07,
         "alcohol_rate_2015": 4.92
       },
       "geometry": {
