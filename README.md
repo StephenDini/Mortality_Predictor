@@ -31,7 +31,6 @@ the project, and any future meeting times that would be necessary to continue wi
 * A GeoJSON data file was created for the mapping portion.
 * Some data was not available for all years so most recent data was used.
 
-claudias
 ### Interactive Website
 With the data cleaned, we decided to use an interactive map to showcase the results.  Different approaches have been combed through based on the various Modules that were used during this course.  These include WeatherPy and Mapping Earthquakes.  The latter is more promising with the data we have for this project.  Other modules that were looked at were UFO Sightings and Mission to Mars, in order to look at what can be done with formatting the webpage for the map.  So far, a map has been created as seen in the Live_Map folder.  Further work is needed.
 
@@ -40,54 +39,25 @@ With the data cleaned, we decided to use an interactive map to showcase the resu
 ## 🧮 Analysis
 =======
 ## Machine learning model
-main
-
-For the project, our group wants to see if a machine learning model can correlate socioeconomic and cultural factors to
-mortality rates by country. Our project used supervised machine learning, specifically the Random Forest Classifier
-method, given our data is labeled and we are looking for a discrete outcome. Several other methods were tested (see
-mortality_machine_learning and mortality_machine_learning_2 in machine learning folder). Those methods were rejected
-given that the balanced accuracy scores were lower than the Random Forest Classifier. We chose the balanced accuracy
-score as the method for measuring how well the model performed based on best practices learned in class, as well as best
-practice, according
-to [machinemastery.com](https://machinelearningmastery.com/how-to-know-if-your-machine-learning-model-has-good-performance/)
-for classification models.
+For the project, our group wants to see if a machine learning model can correlate socioeconomic and cultural factors to mortality rates by country. Our project used supervised machine learning, specifically the Random Forest Classifier, thod, given our data is labeled and we are looking for a discrete outcome. Several other methods were tested (see mortality_machine_learning and mortality_machine_learning_2 in machine learning folder). Those methods were rejected given that the balanced accuracy scores were lower than the Random Forest Classifier. We chose the balanced accuracy score as the method for measuring how well the model performed based on best practices learned in class, as well as best practice, according to [machinemastery.com](https://machinelearningmastery.com/how-to-know-if-your-machine-learning-model-has-good-performance/) for classification models. 
 
 #### Data Processing
-claudias
 Once ETL completed on datasets, there were 26 features to test against mortality rate. In order to test classificataion, mortality rate was transformed into "mortality state" by taking mortality rate 2015 into splitting into ctaegories of high, medium, and low numericly 3,2,1. Mortality Rate columns for all years were then dropped, as well as the mortality state so the model could use "mortality_state' as the y variable. Country name, latitude, and longitude was also dropped. The original model resulted in a 71.9 balanced accuracy score.
 ![Original model](https://github.com/StephenDini/Mortality_Predictor/blob/main/pictures/Machine%20Learning%20original%20Random%20Forest%20Classifier.png)
-=======
 
-Once ETL completed on datasets, there were 26 features to test against mortality rate. Mortality Rate columns for all
-years were dropped, as well as the mortality state so the model could use "mortality_state' as the y variable. Country
-name column was also dropped as it was not a numerical column. The original model resulted in a 70.9 balanced accuracy
-score.
-main
+Once ETL completed on datasets, there were 26 features to test against mortality rate. Mortality Rate columns for all years were dropped, as well as the mortality state so the model could use "mortality_state' as the y variable. Country name column was also dropped as it was not a numerical column. The original model resulted in a 70.9 balanced accuracy score.
 
 #### Optimizing Model
 Using information and code found on machinelearningmastery.com, we optimized the model using sklearn BaggingClassifier model. This library automatically bins certain features to more accurately predict mortality state. Having the code auto classify features helps reduce bias in the data. The outcome of this optimization is 0.906. The ROC AUC score was 0.911. Both scores give "outstanding discrimination" according to [statology.org](https://www.statology.org/what-is-a-good-auc-score/). This means the machine learning optimized model is more than 90% likely to predict mortality state based on socioeconomic and cultural factors when weighted against each other. 
-
 ![Classification report](https://github.com/StephenDini/Mortality_Predictor/blob/main/pictures/bagging_classification_report.png)
 
-claudias
 ### Limitations of machine learning model
 First, given that the bagging classifier selects the features, any change or addition to the dataset can significantly alter the learning model. Given that latitude and longitude were added after the initial model was created, these columns were dropped as to not alter the model. Second, given the high accuracy and ROC AUC scores from the optimized model, overfitting was a concern. However, we limited the number of features to 4 in order to reduce the complexity of the model to avoid overfitting. 
+
 =======
 ## Interactive Website
 
-The mockup for the site was created using paint and gives the overall flow of the site for us to follow.
-The inspiration for the mockup was taken from the belly button module.
-The website will consist of one main landing page and various other pages for chats and maps.
-The landing page will layout the information about the project and a blurb the team behind the project.
-The website is hosted on GitHub pages utilizing [Bootstrap](https://getbootstrap.com/) and Javascript.
-With the data cleaned, we decided to use an interactive map to showcase the results.
-Different approaches have been combed through based on the various Modules that were used during this course.
-These include WeatherPy and Mapping Earthquakes.
-The latter is more promising with the data we have for this project.
-Other modules that were looked at were UFO Sightings and Mission to Mars,
-in order to look at what can be done with formatting the webpage for the map.
-So far, a map has been created as seen in the Live_Map folder.
-Further work is needed.
+The mockup for the site was created using paint and gives the overall flow of the site for us to follow. The inspiration for the mockup was taken from the belly button module. The website will consist of one main landing page and various other pages for chats and maps. The landing page will layout the information about the project and a blurb the team behind the project. The website is hosted on GitHub pages utilizing [Bootstrap](https://getbootstrap.com/) and Javascript. With the data cleaned, we decided to use an interactive map to showcase the results. Different approaches have been combed through based on the various Modules that were used during this course. These include WeatherPy and Mapping Earthquakes. The latter is more promising with the data we have for this project. Other modules that were looked at were UFO Sightings and Mission to Mars,in order to look at what can be done with formatting the webpage for the map. So far, a map has been created as seen in the Live_Map folder. Further work is needed.
 
 ---
 
@@ -118,11 +88,6 @@ Another limitiation that we ran into, was that we weren't able to be more specif
 
 ---
 
-## 🧮 Analysis
-
-main
----
-
 ## 📝 Extra Details
 
 ## Programs used
@@ -146,6 +111,7 @@ main
 - 1 bottle of Mead
 - 4 Black Russians
 - 7 Old Fashions (Monkey Shoulder Blended Scotch used)
+- 2 Margaritas (original with salted rim)
 - 1 bottle of Prosecco
 
 ---
