@@ -1,7 +1,7 @@
 // Add console.log to check to see if our code is working.
 console.log("Working");
 
-alert('Select the layer icon in the top right corner to interact with the map.');
+// alert('Select the layer icon in the top right corner to interact with the map.');
 
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
