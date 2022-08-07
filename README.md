@@ -4,11 +4,8 @@
 
 What are the socioeconomic and cultural factors that impact mortality rates around the world?
 
-### Communication
-
-As a group we have utilized Slack and Zoom as a means of communication. We have reached out to both individuals and as a
-group in order to answer questions in a timely manor, as well as discuss goals, strategy, where we are in our portion of
-the project, and any future meeting times that would be necessary to continue with the forward momentum of the project.
+### Presentation link
+[Presentation](https://docs.google.com/presentation/d/1LWGuXp3NOTsw_bEFNLJiMto2QfCeRlse0vZF0vOMeIQ/edit#slide=id.g13ea42ae2c7_0_71)
 
 ## 🚧 Project Information by Parts
 
