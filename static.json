@@ -1,9 +1,0 @@
-{
-  "root": "docs",
-  "clean_urls": false,
-  "routes": {
-    "/docs/*.html": "index.html",
-    "/docs/*.html": "main_point.html",
-    "/docs/*.html": "livemap.html",
-  }
-}
