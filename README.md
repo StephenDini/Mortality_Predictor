@@ -48,12 +48,6 @@ The bagging classifier automatically selects the features, so any change or addi
 
 ---
 
-## 👌 Interactive Website
-
-The mockup for the site was created using paint and gives the overall flow of the site for us to follow. The inspiration for the mockup was taken from the belly button module. The website will consist of one main landing page and various other pages for chats and maps. The landing page will layout the information about the project and a blurb the team behind the project. The website is hosted on GitHub pages utilizing [Bootstrap](https://getbootstrap.com/) and Javascript. With the data cleaned, we decided to use an interactive map to showcase the results. Different approaches have been combed through based on the various Modules that were used during this course. These include WeatherPy and Mapping Earthquakes. The latter is more promising with the data we have for this project. Other modules that were looked at were UFO Sightings and Mission to Mars, in order to look at what can be done with formatting the webpage for the map. So far, a map has been created as seen in the Live_Map folder. Further work is needed.
-
----
-
 ## 🗺️ Map
 ### Process for Interactive Map
 As a group, we used an interactive map to best display the user interactivity portion of our project. We chose this as the information we wanted to portray was specifically about different data from different countries.
@@ -77,6 +71,12 @@ Using Leaflet to create a basic map, D3 to bring the map to life, and GeoJSON to
 One of the first limitations we encountered, was deciding which data could/should be displayed when making the map.  We decided only one year of GDP and Alcohol should be displayed with the most recent year being used. If we used all the years we had, it would make the map very crowded and less informative. We also had to cut out religion, since there are many religions within each country, and not an easy way to represent that within a map.
 
 Another limitation that we ran into, was that we weren't able to be more specific in legend placement.  Leaflet only allowed 'topleft', 'topright', 'bottomleft' and 'bottomright'. If bottom left was selected twice, it would stack them instead of laying them across the bottom, where we preferred. We also wanted the layers to come in with its own legend but were having trouble launching this specification. We also had to consider how the legends were possibly going to be displayed if more than one layer was selected.
+
+---
+
+## 👌 Interactive Website
+
+The mockup for the site was created using paint and gives the overall flow of the site for us to follow. The inspiration for the mockup was taken from the belly button module. The website will consist of one main landing page and various other pages for charts and maps. The landing page will layout the information about the project and a blurb the team behind the project. The website is hosted on GitHub pages utilizing [Bootstrap](https://getbootstrap.com/) and Javascript. 
 
 ---
 
