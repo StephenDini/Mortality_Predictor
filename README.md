@@ -36,12 +36,12 @@ For the project, our group wants to see if a machine learning model can correlat
 
 #### Data Processing
 Once ETL completed on datasets, there were 26 features to test against mortality rate. In order to test classification, mortality rate was transformed into "mortality state" by taking mortality rate 2015 into splitting into categories of high, medium, and low numerically 3,2,1. Mortality Rate columns for all years were then dropped, as well as the mortality rate so the model could use "mortality_state' as the y variable. Country name, latitude, and longitude was also dropped. The original model resulted in a 71.9 balanced accuracy score.
-![Original model](https://github.com/StephenDini/Mortality_Predictor/blob/main/pictures/Machine%20Learning%20original%20Random%20Forest%20Classifier.png)
+![Original model](/docs/pictures/Machine%20Learning%20original%20Random%20Forest%20Classifier.png)
 
 #### Optimizing Model
 Using information and code found on machinelearningmastery.com, we optimized the model using sklearn BaggingClassifier model. This library automatically bins certain features to more accurately predict mortality state. Having the code auto classify features helps reduce bias in the data. The outcome of this optimization is 0.906. The ROC AUC score was 0.911. Both scores give "outstanding discrimination" according to [statology.org](https://www.statology.org/what-is-a-good-auc-score/). This means the machine learning optimized model is more than 90% likely to predict mortality state based on socioeconomic and cultural factors when weighted against each other. 
 
-![Classification report](https://github.com/StephenDini/Mortality_Predictor/blob/main/pictures/bagging_classification_report.png)
+![Classification report](/docs/pictures/bagging_classification_report.png)
 
 ### Limitations of machine learning model
 The bagging classifier automatically selects the features, so any change or addition to the dataset can significantly alter the learning model. Given that latitude and longitude were added after the initial model was created, these columns were dropped as to not alter the model. The high accuracy and ROC AUC scores from the optimized model could indicate overfitting. However, we limited the number of features to 4 in order to reduce the complexity of the model to avoid overfitting. 
@@ -114,7 +114,7 @@ Another limitation that we ran into, was that we weren't able to be more specifi
 , [Joe Eck](https://github.com/JleMxe), [Claudia Wilkis](https://github.com/cwilkis)
 , [Andrea Darrah](https://github.com/andrealynn8201)
 
-[![...](https://github.com/StephenDini/Mortality_Predictor/blob/main/pictures/adjusted_image.png?raw=true)](https://github.com/StephenDini/Mortality_Predictor/graphs/contributors)
+[![...](/docs/pictures/adjusted_image.png)](https://github.com/StephenDini/Mortality_Predictor/graphs/contributors)
 
 Made with [contrib.rocks](https://contrib.rocks).
 
