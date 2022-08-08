@@ -1,0 +1,2785 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Albania",
+        "Longitude": 19.9999619,
+        "Latitude": 41.000028,
+        "Literacy_Rate": 96.8,
+        "mortality_rate": 9.22,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 3952.8,
+        "alcohol_rate_2015": 6.74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9999619,
+          41.000028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Algeria",
+        "Longitude": 2.9999825,
+        "Latitude": 28.0000272,
+        "Literacy_Rate": 72.6,
+        "mortality_rate": 9.65,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 4177.89,
+        "alcohol_rate_2015": 0.93
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.9999825,
+          28.0000272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Angola",
+        "Longitude": 17.5691241,
+        "Latitude": -11.8775768,
+        "Literacy_Rate": 70.4,
+        "mortality_rate": 23.98,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 3127.89,
+        "alcohol_rate_2015": 7.96
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5691241,
+          -11.8775768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Antigua and Barbuda",
+        "Longitude": -61.9554608,
+        "Latitude": 17.2234721,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 12.19,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 14285.33,
+        "alcohol_rate_2015": 5.89
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.9554608,
+          17.2234721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Argentina",
+        "Longitude": -64.9672817,
+        "Latitude": -34.9964963,
+        "Literacy_Rate": 97.9,
+        "mortality_rate": 11.27,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 13789.06,
+        "alcohol_rate_2015": 9.55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9672817,
+          -34.9964963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Armenia",
+        "Longitude": 44.6736646,
+        "Latitude": 40.7696272,
+        "Literacy_Rate": 99.6,
+        "mortality_rate": 12.13,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 3607.29,
+        "alcohol_rate_2015": 5.84
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.6736646,
+          40.7696272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Australia",
+        "Longitude": 134.755,
+        "Latitude": -24.7761086,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 6.22,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 56707.02,
+        "alcohol_rate_2015": 10.83
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.755,
+          -24.7761086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Austria",
+        "Longitude": 14.12456,
+        "Latitude": 47.59397,
+        "Literacy_Rate": 98.0,
+        "mortality_rate": 6.43,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 44195.82,
+        "alcohol_rate_2015": 12.07
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.12456,
+          47.59397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Azerbaijan",
+        "Longitude": 47.7872508,
+        "Latitude": 40.3936294,
+        "Literacy_Rate": 99.8,
+        "mortality_rate": 11.95,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 5500.31,
+        "alcohol_rate_2015": 4.58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.7872508,
+          40.3936294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Bahrain",
+        "Longitude": 50.5344606,
+        "Latitude": 26.1551249,
+        "Literacy_Rate": 94.6,
+        "mortality_rate": 5.85,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 22634.09,
+        "alcohol_rate_2015": 1.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.5344606,
+          26.1551249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Bangladesh",
+        "Longitude": 90.2934413,
+        "Latitude": 24.4769288,
+        "Literacy_Rate": 57.7,
+        "mortality_rate": 13.31,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 1248.45,
+        "alcohol_rate_2015": 0.02
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.2934413,
+          24.4769288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Barbados",
+        "Longitude": -59.5250305,
+        "Latitude": 13.1500331,
+        "Literacy_Rate": 99.7,
+        "mortality_rate": 10.09,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 16558.86,
+        "alcohol_rate_2015": 9.33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.5250305,
+          13.1500331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Belarus",
+        "Longitude": 27.6971358,
+        "Latitude": 53.4250605,
+        "Literacy_Rate": 99.6,
+        "mortality_rate": 16.3,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 5967.05,
+        "alcohol_rate_2015": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6971358,
+          53.4250605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Belgium",
+        "Longitude": 4.6667145,
+        "Latitude": 50.6402809,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 7.19,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 41008.3,
+        "alcohol_rate_2015": 11.82
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6667145,
+          50.6402809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Belize",
+        "Longitude": -88.7600927,
+        "Latitude": 16.8259793,
+        "Literacy_Rate": 76.9,
+        "mortality_rate": 18.16,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 4805.2,
+        "alcohol_rate_2015": 6.74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7600927,
+          16.8259793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Benin",
+        "Longitude": 2.2584408,
+        "Latitude": 9.5293472,
+        "Literacy_Rate": 42.4,
+        "mortality_rate": 24.63,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 1076.8,
+        "alcohol_rate_2015": 2.97
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2584408,
+          9.5293472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Bhutan",
+        "Longitude": 90.5119273,
+        "Latitude": 27.549511,
+        "Literacy_Rate": 52.8,
+        "mortality_rate": 21.11,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 2752.63,
+        "alcohol_rate_2015": 0.42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.5119273,
+          27.549511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Botswana",
+        "Longitude": 24.5928742,
+        "Latitude": -23.1681782,
+        "Literacy_Rate": 85.1,
+        "mortality_rate": 26.33,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 6402.91,
+        "alcohol_rate_2015": 6.86
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5928742,
+          -23.1681782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Brazil",
+        "Longitude": -53.2,
+        "Latitude": -10.3333333,
+        "Literacy_Rate": 90.4,
+        "mortality_rate": 14.45,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 8813.99,
+        "alcohol_rate_2015": 7.86
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.2,
+          -10.3333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Bulgaria",
+        "Longitude": 25.4856617,
+        "Latitude": 42.6073975,
+        "Literacy_Rate": 98.4,
+        "mortality_rate": 13.62,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 7074.68,
+        "alcohol_rate_2015": 12.34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4856617,
+          42.6073975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Burkina Faso",
+        "Longitude": -1.6880314,
+        "Latitude": 12.0753083,
+        "Literacy_Rate": 28.7,
+        "mortality_rate": 25.96,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 653.33,
+        "alcohol_rate_2015": 11.83
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6880314,
+          12.0753083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Burundi",
+        "Longitude": 29.9324519,
+        "Latitude": -3.426449,
+        "Literacy_Rate": 67.2,
+        "mortality_rate": 29.61,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 305.51,
+        "alcohol_rate_2015": 7.03
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9324519,
+          -3.426449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Cambodia",
+        "Longitude": 104.8144914,
+        "Latitude": 12.5433216,
+        "Literacy_Rate": 73.9,
+        "mortality_rate": 17.43,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 1162.9,
+        "alcohol_rate_2015": 6.37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8144914,
+          12.5433216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Cameroon",
+        "Longitude": 13.1535811,
+        "Latitude": 4.6125522,
+        "Literacy_Rate": 71.3,
+        "mortality_rate": 35.5,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 1382.51,
+        "alcohol_rate_2015": 6.17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1535811,
+          4.6125522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Central African Republic",
+        "Longitude": 19.9981227,
+        "Latitude": 7.0323598,
+        "Literacy_Rate": 56.6,
+        "mortality_rate": 41.82,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 377.42,
+        "alcohol_rate_2015": 2.43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9981227,
+          7.0323598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Chad",
+        "Longitude": 19.0156172,
+        "Latitude": 15.6134137,
+        "Literacy_Rate": 35.4,
+        "mortality_rate": 36.7,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 776.02,
+        "alcohol_rate_2015": 1.45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0156172,
+          15.6134137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Chile",
+        "Longitude": -71.3187697,
+        "Latitude": -31.7613365,
+        "Literacy_Rate": 98.6,
+        "mortality_rate": 8.81,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 13495.01,
+        "alcohol_rate_2015": 9.26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3187697,
+          -31.7613365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "China",
+        "Longitude": 104.999927,
+        "Latitude": 35.000074,
+        "Literacy_Rate": 95.1,
+        "mortality_rate": 8.15,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 8016.43,
+        "alcohol_rate_2015": 7.15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.999927,
+          35.000074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Colombia",
+        "Longitude": -72.9088133,
+        "Latitude": 4.099917,
+        "Literacy_Rate": 93.6,
+        "mortality_rate": 13.81,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 6175.88,
+        "alcohol_rate_2015": 5.78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9088133,
+          4.099917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Comoros",
+        "Longitude": 44.2832964,
+        "Latitude": -12.2045176,
+        "Literacy_Rate": 75.5,
+        "mortality_rate": 22.73,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 1242.59,
+        "alcohol_rate_2015": 0.88
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2832964,
+          -12.2045176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Costa Rica",
+        "Longitude": -84.0739102,
+        "Latitude": 10.2735633,
+        "Literacy_Rate": 96.3,
+        "mortality_rate": 9.72,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 11642.78,
+        "alcohol_rate_2015": 4.76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0739102,
+          10.2735633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Croatia",
+        "Longitude": 17.0118954,
+        "Latitude": 45.5643442,
+        "Literacy_Rate": 98.9,
+        "mortality_rate": 9.56,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 11933.38,
+        "alcohol_rate_2015": 9.07
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0118954,
+          45.5643442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Cuba",
+        "Longitude": -80.8328748,
+        "Latitude": 23.0131338,
+        "Literacy_Rate": 99.8,
+        "mortality_rate": 9.43,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 7694.01,
+        "alcohol_rate_2015": 5.67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8328748,
+          23.0131338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Cyprus",
+        "Longitude": 33.1451285,
+        "Latitude": 34.9823018,
+        "Literacy_Rate": 98.7,
+        "mortality_rate": 5.66,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 23408.34,
+        "alcohol_rate_2015": 10.76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1451285,
+          34.9823018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Denmark",
+        "Longitude": 10.3333283,
+        "Latitude": 55.670249,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 6.63,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 53254.86,
+        "alcohol_rate_2015": 10.36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3333283,
+          55.670249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Djibouti",
+        "Longitude": 42.8453061,
+        "Latitude": 11.8145966,
+        "Literacy_Rate": 67.9,
+        "mortality_rate": 24.76,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 2652.51,
+        "alcohol_rate_2015": 0.49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.8453061,
+          11.8145966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Dominican Republic",
+        "Longitude": -70.3028026,
+        "Latitude": 19.0974031,
+        "Literacy_Rate": 90.1,
+        "mortality_rate": 16.31,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 6921.52,
+        "alcohol_rate_2015": 6.61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.3028026,
+          19.0974031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Ecuador",
+        "Longitude": -79.3666965,
+        "Latitude": -1.3397668,
+        "Literacy_Rate": 91.6,
+        "mortality_rate": 11.7,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 6124.49,
+        "alcohol_rate_2015": 4.98
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3666965,
+          -1.3397668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "El Salvador",
+        "Longitude": -88.9140683,
+        "Latitude": 13.8000382,
+        "Literacy_Rate": 84.5,
+        "mortality_rate": 17.95,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 3705.58,
+        "alcohol_rate_2015": 3.59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9140683,
+          13.8000382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Equatorial Guinea",
+        "Longitude": 10.5170357,
+        "Latitude": 1.613172,
+        "Literacy_Rate": 94.2,
+        "mortality_rate": 30.09,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 11283.4,
+        "alcohol_rate_2015": 9.08
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5170357,
+          1.613172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Estonia",
+        "Longitude": 25.3319078,
+        "Latitude": 58.7523778,
+        "Literacy_Rate": 99.8,
+        "mortality_rate": 11.58,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 17402.04,
+        "alcohol_rate_2015": 12.39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3319078,
+          58.7523778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Ethiopia",
+        "Longitude": 38.6521203,
+        "Latitude": 10.2116702,
+        "Literacy_Rate": 39.0,
+        "mortality_rate": 22.47,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 640.54,
+        "alcohol_rate_2015": 2.19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.6521203,
+          10.2116702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Fiji",
+        "Longitude": 179.0122737,
+        "Latitude": -18.1239696,
+        "Literacy_Rate": 93.7,
+        "mortality_rate": 18.81,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 5390.71,
+        "alcohol_rate_2015": 3.33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.0122737,
+          -18.1239696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Finland",
+        "Longitude": 25.9209164,
+        "Latitude": 63.2467777,
+        "Literacy_Rate": 100.0,
+        "mortality_rate": 6.95,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 42801.91,
+        "alcohol_rate_2015": 11.18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9209164,
+          63.2467777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "France",
+        "Longitude": 1.8883335,
+        "Latitude": 46.603354,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 7.31,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 36652.92,
+        "alcohol_rate_2015": 12.64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8883335,
+          46.603354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Gabon",
+        "Longitude": 11.6899699,
+        "Latitude": -0.8999695,
+        "Literacy_Rate": 89.0,
+        "mortality_rate": 22.82,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 7384.7,
+        "alcohol_rate_2015": 9.57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6899699,
+          -0.8999695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Georgia",
+        "Longitude": 42.3154,
+        "Latitude": 43.3569,
+        "Literacy_Rate": 99.7,
+        "mortality_rate": 15.64,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 4014.19,
+        "alcohol_rate_2015": 9.61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.3154,
+          43.3569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Germany",
+        "Longitude": 10.4478313,
+        "Latitude": 51.1638175,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 7.12,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 41103.26,
+        "alcohol_rate_2015": 13.06
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4478313,
+          51.1638175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Ghana",
+        "Longitude": -1.0800271,
+        "Latitude": 8.0300284,
+        "Literacy_Rate": 71.5,
+        "mortality_rate": 24.49,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 1774.07,
+        "alcohol_rate_2015": 3.12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0800271,
+          8.0300284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Greece",
+        "Longitude": 21.9877132,
+        "Latitude": 38.9953683,
+        "Literacy_Rate": 97.3,
+        "mortality_rate": 6.76,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 18083.88,
+        "alcohol_rate_2015": 10.49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9877132,
+          38.9953683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Grenada",
+        "Longitude": -61.6904045,
+        "Latitude": 12.1360374,
+        "Literacy_Rate": 96.0,
+        "mortality_rate": 14.13,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 9096.54,
+        "alcohol_rate_2015": 9.07
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.6904045,
+          12.1360374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Guatemala",
+        "Longitude": -90.345759,
+        "Latitude": 15.5855545,
+        "Literacy_Rate": 75.9,
+        "mortality_rate": 16.47,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 3994.64,
+        "alcohol_rate_2015": 2.55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.345759,
+          15.5855545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Guinea",
+        "Longitude": -10.7083587,
+        "Latitude": 10.7226226,
+        "Literacy_Rate": 41.0,
+        "mortality_rate": 27.71,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 769.26,
+        "alcohol_rate_2015": 1.07
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.7083587,
+          10.7226226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Guinea-Bissau",
+        "Longitude": -14.9000214,
+        "Latitude": 12.100035,
+        "Literacy_Rate": 55.3,
+        "mortality_rate": 27.82,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 603.4,
+        "alcohol_rate_2015": 5.05
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.9000214,
+          12.100035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Guyana",
+        "Longitude": -58.6416891,
+        "Latitude": 4.8417097,
+        "Literacy_Rate": 91.8,
+        "mortality_rate": 26.39,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 5576.83,
+        "alcohol_rate_2015": 7.35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.6416891,
+          4.8417097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Haiti",
+        "Longitude": -72.3570972,
+        "Latitude": 19.1399952,
+        "Literacy_Rate": 48.7,
+        "mortality_rate": 24.46,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 1386.85,
+        "alcohol_rate_2015": 2.69
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3570972,
+          19.1399952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Honduras",
+        "Longitude": -86.0755145,
+        "Latitude": 15.2572432,
+        "Literacy_Rate": 85.1,
+        "mortality_rate": 14.65,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 2302.2,
+        "alcohol_rate_2015": 3.49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0755145,
+          15.2572432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Hungary",
+        "Longitude": 19.5060937,
+        "Latitude": 47.1817585,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 13.23,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 12720.71,
+        "alcohol_rate_2015": 11.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5060937,
+          47.1817585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Iceland",
+        "Longitude": -18.1059013,
+        "Latitude": 64.9841821,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 5.44,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 52951.68,
+        "alcohol_rate_2015": 8.74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.1059013,
+          64.9841821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "India",
+        "Longitude": 78.6677428,
+        "Latitude": 22.3511148,
+        "Literacy_Rate": 62.8,
+        "mortality_rate": 18.05,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 1605.61,
+        "alcohol_rate_2015": 5.54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.6677428,
+          22.3511148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Indonesia",
+        "Longitude": 117.8902853,
+        "Latitude": -2.4833826,
+        "Literacy_Rate": 92.8,
+        "mortality_rate": 17.76,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 3331.7,
+        "alcohol_rate_2015": 0.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.8902853,
+          -2.4833826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Iraq",
+        "Longitude": 44.1749775,
+        "Latitude": 33.0955793,
+        "Literacy_Rate": 78.5,
+        "mortality_rate": 18.03,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 4688.32,
+        "alcohol_rate_2015": 0.37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.1749775,
+          33.0955793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Ireland",
+        "Longitude": -7.9794599,
+        "Latitude": 52.865196,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 6.28,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 62012.48,
+        "alcohol_rate_2015": 12.47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9794599,
+          52.865196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Israel",
+        "Longitude": 34.8594762,
+        "Latitude": 30.8124247,
+        "Literacy_Rate": 97.1,
+        "mortality_rate": 5.77,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 35808.44,
+        "alcohol_rate_2015": 3.86
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8594762,
+          30.8124247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Italy",
+        "Longitude": 12.674297,
+        "Latitude": 42.6384261,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 5.49,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 30242.39,
+        "alcohol_rate_2015": 7.59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.674297,
+          42.6384261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Jamaica",
+        "Longitude": -77.3947693,
+        "Latitude": 18.1850507,
+        "Literacy_Rate": 87.0,
+        "mortality_rate": 13.26,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 4907.93,
+        "alcohol_rate_2015": 4.19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3947693,
+          18.1850507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Japan",
+        "Longitude": 139.2394179,
+        "Latitude": 36.5748441,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 5.26,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 34960.64,
+        "alcohol_rate_2015": 7.87
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.2394179,
+          36.5748441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Jordan",
+        "Longitude": 36.941628,
+        "Latitude": 31.1667049,
+        "Literacy_Rate": 95.9,
+        "mortality_rate": 11.15,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 4164.11,
+        "alcohol_rate_2015": 0.69
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.941628,
+          31.1667049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Kazakhstan",
+        "Longitude": 66.7780818,
+        "Latitude": 48.1012954,
+        "Literacy_Rate": 99.7,
+        "mortality_rate": 19.25,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 10510.77,
+        "alcohol_rate_2015": 4.66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.7780818,
+          48.1012954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Kenya",
+        "Longitude": 38.4313975,
+        "Latitude": 1.4419683,
+        "Literacy_Rate": 87.4,
+        "mortality_rate": 23.17,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 1464.55,
+        "alcohol_rate_2015": 2.77
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.4313975,
+          1.4419683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Kuwait",
+        "Longitude": 47.4979476,
+        "Latitude": 29.2733964,
+        "Literacy_Rate": 93.9,
+        "mortality_rate": 8.05,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 29869.55,
+        "alcohol_rate_2015": 0.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.4979476,
+          29.2733964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Latvia",
+        "Longitude": 24.7537645,
+        "Latitude": 56.8406494,
+        "Literacy_Rate": 99.8,
+        "mortality_rate": 15.43,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 13786.46,
+        "alcohol_rate_2015": 12.64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7537645,
+          56.8406494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Lebanon",
+        "Longitude": 35.843409,
+        "Latitude": 33.8750629,
+        "Literacy_Rate": 89.6,
+        "mortality_rate": 9.84,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 7643.01,
+        "alcohol_rate_2015": 1.65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.843409,
+          33.8750629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Lesotho",
+        "Longitude": 28.3350193,
+        "Latitude": -29.6039267,
+        "Literacy_Rate": 89.6,
+        "mortality_rate": 49.83,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 1146.06,
+        "alcohol_rate_2015": 4.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.3350193,
+          -29.6039267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Liberia",
+        "Longitude": -9.3658524,
+        "Latitude": 5.7499721,
+        "Literacy_Rate": 60.8,
+        "mortality_rate": 24.06,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 721.58,
+        "alcohol_rate_2015": 5.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.3658524,
+          5.7499721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Libya",
+        "Longitude": 18.1236723,
+        "Latitude": 26.8234472,
+        "Literacy_Rate": 89.5,
+        "mortality_rate": 14.69,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 7590.44,
+        "alcohol_rate_2015": 0.03
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1236723,
+          26.8234472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Lithuania",
+        "Longitude": 23.7499997,
+        "Latitude": 55.3500003,
+        "Literacy_Rate": 99.7,
+        "mortality_rate": 16.54,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 14263.96,
+        "alcohol_rate_2015": 15.38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7499997,
+          55.3500003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Luxembourg",
+        "Longitude": 6.1296751,
+        "Latitude": 49.8158683,
+        "Literacy_Rate": 100.0,
+        "mortality_rate": 5.19,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 105462.01,
+        "alcohol_rate_2015": 13.18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1296751,
+          49.8158683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Madagascar",
+        "Longitude": 46.4416422,
+        "Latitude": -18.9249604,
+        "Literacy_Rate": 64.5,
+        "mortality_rate": 22.01,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 467.24,
+        "alcohol_rate_2015": 1.88
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.4416422,
+          -18.9249604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Malawi",
+        "Longitude": 33.9301963,
+        "Latitude": -13.2687204,
+        "Literacy_Rate": 74.8,
+        "mortality_rate": 26.64,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 380.6,
+        "alcohol_rate_2015": 3.62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9301963,
+          -13.2687204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Malaysia",
+        "Longitude": 102.2656823,
+        "Latitude": 4.5693754,
+        "Literacy_Rate": 93.1,
+        "mortality_rate": 12.56,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 9955.24,
+        "alcohol_rate_2015": 0.85
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2656823,
+          4.5693754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Maldives",
+        "Longitude": 73.2244152,
+        "Latitude": 3.7203503,
+        "Literacy_Rate": 98.4,
+        "mortality_rate": 5.4,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 9033.41,
+        "alcohol_rate_2015": 2.07
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.2244152,
+          3.7203503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Mali",
+        "Longitude": -2.2900239,
+        "Latitude": 16.3700359,
+        "Literacy_Rate": 33.4,
+        "mortality_rate": 27.75,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 751.47,
+        "alcohol_rate_2015": 1.25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2900239,
+          16.3700359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Malta",
+        "Longitude": 14.4476911,
+        "Latitude": 35.8885993,
+        "Literacy_Rate": 92.4,
+        "mortality_rate": 5.52,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 24921.6,
+        "alcohol_rate_2015": 7.56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4476911,
+          35.8885993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Mauritania",
+        "Longitude": -9.2399263,
+        "Latitude": 20.2540382,
+        "Literacy_Rate": 58.6,
+        "mortality_rate": 20.4,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 1524.07,
+        "alcohol_rate_2015": 0.03
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.2399263,
+          20.2540382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Mauritius",
+        "Longitude": 57.5703566,
+        "Latitude": -20.2759451,
+        "Literacy_Rate": 88.8,
+        "mortality_rate": 14.78,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 9260.45,
+        "alcohol_rate_2015": 3.94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.5703566,
+          -20.2759451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Mexico",
+        "Longitude": -102.0077097,
+        "Latitude": 23.6585116,
+        "Literacy_Rate": 93.5,
+        "mortality_rate": 12.84,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 9616.65,
+        "alcohol_rate_2015": 4.92
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.0077097,
+          23.6585116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Mongolia",
+        "Longitude": 103.8499736,
+        "Latitude": 46.8250388,
+        "Literacy_Rate": 97.4,
+        "mortality_rate": 21.29,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 3875.32,
+        "alcohol_rate_2015": 10.97
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8499736,
+          46.8250388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Morocco",
+        "Longitude": -7.3362482,
+        "Latitude": 31.1728205,
+        "Literacy_Rate": 67.1,
+        "mortality_rate": 7.02,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 2875.26,
+        "alcohol_rate_2015": 0.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3362482,
+          31.1728205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Mozambique",
+        "Longitude": 34.9144977,
+        "Latitude": -19.302233,
+        "Literacy_Rate": 56.1,
+        "mortality_rate": 35.87,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 589.86,
+        "alcohol_rate_2015": 2.19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9144977,
+          -19.302233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Namibia",
+        "Longitude": 17.3231107,
+        "Latitude": -23.2335499,
+        "Literacy_Rate": 88.8,
+        "mortality_rate": 29.58,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 4896.62,
+        "alcohol_rate_2015": 5.23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3231107,
+          -23.2335499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Nepal",
+        "Longitude": 84.0917139,
+        "Latitude": 28.1083929,
+        "Literacy_Rate": 57.4,
+        "mortality_rate": 16.62,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 901.75,
+        "alcohol_rate_2015": 2.05
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0917139,
+          28.1083929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Netherlands",
+        "Longitude": 5.6343227,
+        "Latitude": 52.2434979,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 5.83,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 45193.4,
+        "alcohol_rate_2015": 9.55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6343227,
+          52.2434979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "New Zealand",
+        "Longitude": 172.8344077,
+        "Latitude": -41.5000831,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 6.67,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 38630.73,
+        "alcohol_rate_2015": 10.44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.8344077,
+          -41.5000831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Nicaragua",
+        "Longitude": -85.2936911,
+        "Latitude": 12.6090157,
+        "Literacy_Rate": 78.0,
+        "mortality_rate": 14.79,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 2049.85,
+        "alcohol_rate_2015": 5.03
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2936911,
+          12.6090157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Niger",
+        "Longitude": 9.3238432,
+        "Latitude": 17.7356214,
+        "Literacy_Rate": 28.7,
+        "mortality_rate": 25.7,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 484.15,
+        "alcohol_rate_2015": 0.55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3238432,
+          17.7356214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Nigeria",
+        "Longitude": 7.9999721,
+        "Latitude": 9.6000359,
+        "Literacy_Rate": 61.3,
+        "mortality_rate": 35.54,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 2687.48,
+        "alcohol_rate_2015": 10.81
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9999721,
+          9.6000359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Norway",
+        "Longitude": 9.0999715,
+        "Latitude": 60.5000209,
+        "Literacy_Rate": 100.0,
+        "mortality_rate": 5.37,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 74355.52,
+        "alcohol_rate_2015": 7.52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0999715,
+          60.5000209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Oman",
+        "Longitude": 57.0036901,
+        "Latitude": 21.0000287,
+        "Literacy_Rate": 86.9,
+        "mortality_rate": 9.8,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 18444.93,
+        "alcohol_rate_2015": 0.77
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.0036901,
+          21.0000287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Pakistan",
+        "Longitude": 71.247499,
+        "Latitude": 30.3308401,
+        "Literacy_Rate": 54.9,
+        "mortality_rate": 16.6,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 1356.67,
+        "alcohol_rate_2015": 0.29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.247499,
+          30.3308401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Panama",
+        "Longitude": -81.1308434,
+        "Latitude": 8.559559,
+        "Literacy_Rate": 94.1,
+        "mortality_rate": 11.19,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 13630.3,
+        "alcohol_rate_2015": 7.71
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1308434,
+          8.559559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Papua New Guinea",
+        "Longitude": 144.2489081,
+        "Latitude": -5.6816069,
+        "Literacy_Rate": 62.4,
+        "mortality_rate": 22.55,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 2679.35,
+        "alcohol_rate_2015": 1.39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2489081,
+          -5.6816069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Paraguay",
+        "Longitude": -58.1693445,
+        "Latitude": -23.3165935,
+        "Literacy_Rate": 93.9,
+        "mortality_rate": 14.58,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 5413.78,
+        "alcohol_rate_2015": 7.26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.1693445,
+          -23.3165935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Peru",
+        "Longitude": -75.0458515,
+        "Latitude": -6.8699697,
+        "Literacy_Rate": 89.6,
+        "mortality_rate": 12.55,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 6229.1,
+        "alcohol_rate_2015": 6.63
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0458515,
+          -6.8699697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Philippines",
+        "Longitude": 122.7312101,
+        "Latitude": 12.7503486,
+        "Literacy_Rate": 95.4,
+        "mortality_rate": 19.5,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 3001.04,
+        "alcohol_rate_2015": 6.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.7312101,
+          12.7503486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Poland",
+        "Longitude": 19.134422,
+        "Latitude": 52.215933,
+        "Literacy_Rate": 99.7,
+        "mortality_rate": 11.48,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 12578.5,
+        "alcohol_rate_2015": 11.63
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.134422,
+          52.215933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Portugal",
+        "Longitude": -7.8896263,
+        "Latitude": 40.0332629,
+        "Literacy_Rate": 95.4,
+        "mortality_rate": 7.65,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 19250.11,
+        "alcohol_rate_2015": 11.88
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8896263,
+          40.0332629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Qatar",
+        "Longitude": 51.2295295,
+        "Latitude": 25.3336984,
+        "Literacy_Rate": 96.3,
+        "mortality_rate": 6.28,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 63039.11,
+        "alcohol_rate_2015": 1.62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.2295295,
+          25.3336984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Romania",
+        "Longitude": 24.6859225,
+        "Latitude": 45.9852129,
+        "Literacy_Rate": 97.7,
+        "mortality_rate": 13.59,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 8969.15,
+        "alcohol_rate_2015": 11.64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6859225,
+          45.9852129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Rwanda",
+        "Longitude": 30.0644358,
+        "Latitude": -1.9646631,
+        "Literacy_Rate": 71.1,
+        "mortality_rate": 20.32,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 751.11,
+        "alcohol_rate_2015": 9.26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.0644358,
+          -1.9646631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Samoa",
+        "Longitude": -172.12005,
+        "Latitude": -13.7693895,
+        "Literacy_Rate": 98.8,
+        "mortality_rate": 11.26,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 4073.73,
+        "alcohol_rate_2015": 2.59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -172.12005,
+          -13.7693895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Saudi Arabia",
+        "Longitude": 42.3528328,
+        "Latitude": 25.6242618,
+        "Literacy_Rate": 87.2,
+        "mortality_rate": 9.05,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 20627.92,
+        "alcohol_rate_2015": 0.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.3528328,
+          25.6242618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Senegal",
+        "Longitude": -14.4529612,
+        "Latitude": 14.4750607,
+        "Literacy_Rate": 49.7,
+        "mortality_rate": 18.89,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 1219.25,
+        "alcohol_rate_2015": 0.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.4529612,
+          14.4750607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Seychelles",
+        "Longitude": 55.4540146,
+        "Latitude": -4.6574977,
+        "Literacy_Rate": 91.8,
+        "mortality_rate": 16.56,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 15157.5,
+        "alcohol_rate_2015": 18.35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.4540146,
+          -4.6574977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Sierra Leone",
+        "Longitude": -11.8400269,
+        "Latitude": 8.6400349,
+        "Literacy_Rate": 43.3,
+        "mortality_rate": 40.37,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 588.23,
+        "alcohol_rate_2015": 5.63
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.8400269,
+          8.6400349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Singapore",
+        "Longitude": 103.8194992,
+        "Latitude": 1.357107,
+        "Literacy_Rate": 95.9,
+        "mortality_rate": 5.36,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 55646.62,
+        "alcohol_rate_2015": 2.07
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8194992,
+          1.357107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Slovenia",
+        "Longitude": 14.4808369,
+        "Latitude": 45.8133113,
+        "Literacy_Rate": 99.7,
+        "mortality_rate": 7.42,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 20890.17,
+        "alcohol_rate_2015": 12.74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4808369,
+          45.8133113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Solomon Islands",
+        "Longitude": 159.1070693851845,
+        "Latitude": -8.7053941,
+        "Literacy_Rate": 84.1,
+        "mortality_rate": 14.88,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 2167.16,
+        "alcohol_rate_2015": 1.55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.1070693851845,
+          -8.7053941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "South Africa",
+        "Longitude": 24.991639,
+        "Latitude": -28.8166236,
+        "Literacy_Rate": 93.0,
+        "mortality_rate": 30.46,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 6259.84,
+        "alcohol_rate_2015": 9.61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.991639,
+          -28.8166236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Spain",
+        "Longitude": -4.8379791,
+        "Latitude": 39.3260685,
+        "Literacy_Rate": 97.7,
+        "mortality_rate": 5.77,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 25742.37,
+        "alcohol_rate_2015": 11.32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8379791,
+          39.3260685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Sri Lanka",
+        "Longitude": 80.7137847,
+        "Latitude": 7.5554942,
+        "Literacy_Rate": 91.2,
+        "mortality_rate": 13.11,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 3843.78,
+        "alcohol_rate_2015": 4.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7137847,
+          7.5554942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Suriname",
+        "Longitude": -56.0771187,
+        "Latitude": 4.1413025,
+        "Literacy_Rate": 94.7,
+        "mortality_rate": 18.24,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 9168.24,
+        "alcohol_rate_2015": 5.81
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0771187,
+          4.1413025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Sweden",
+        "Longitude": 14.5208584,
+        "Latitude": 59.6749712,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 5.4,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 51545.48,
+        "alcohol_rate_2015": 9.13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5208584,
+          59.6749712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Switzerland",
+        "Longitude": 8.2319736,
+        "Latitude": 46.7985624,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 4.96,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 84776.14,
+        "alcohol_rate_2015": 11.58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2319736,
+          46.7985624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Tajikistan",
+        "Longitude": 70.8156541,
+        "Latitude": 38.6281733,
+        "Literacy_Rate": 99.7,
+        "mortality_rate": 12.49,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 978.4,
+        "alcohol_rate_2015": 3.11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.8156541,
+          38.6281733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Thailand",
+        "Longitude": 100.83273,
+        "Latitude": 14.8971921,
+        "Literacy_Rate": 93.5,
+        "mortality_rate": 14.9,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 5840.05,
+        "alcohol_rate_2015": 8.36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.83273,
+          14.8971921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Togo",
+        "Longitude": 1.0199765,
+        "Latitude": 8.7800265,
+        "Literacy_Rate": 60.4,
+        "mortality_rate": 27.1,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 570.91,
+        "alcohol_rate_2015": 2.37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0199765,
+          8.7800265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Tonga",
+        "Longitude": -175.202642,
+        "Latitude": -19.9160819,
+        "Literacy_Rate": 99.0,
+        "mortality_rate": 13.48,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 4336.24,
+        "alcohol_rate_2015": 0.68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.202642,
+          -19.9160819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Trinidad and Tobago",
+        "Longitude": -61.0840075,
+        "Latitude": 10.7466905,
+        "Literacy_Rate": 98.8,
+        "mortality_rate": 17.29,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 18383.54,
+        "alcohol_rate_2015": 6.88
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.0840075,
+          10.7466905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Tunisia",
+        "Longitude": 9.400138,
+        "Latitude": 33.8439408,
+        "Literacy_Rate": 79.1,
+        "mortality_rate": 9.28,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 4094.84,
+        "alcohol_rate_2015": 1.99
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.400138,
+          33.8439408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Turkmenistan",
+        "Longitude": 59.3924609,
+        "Latitude": 39.3763807,
+        "Literacy_Rate": 99.6,
+        "mortality_rate": 19.82,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 6432.69,
+        "alcohol_rate_2015": 5.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.3924609,
+          39.3763807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Uganda",
+        "Longitude": 32.2166578,
+        "Latitude": 1.5333554,
+        "Literacy_Rate": 73.2,
+        "mortality_rate": 29.3,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 847.27,
+        "alcohol_rate_2015": 15.14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2166578,
+          1.5333554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Ukraine",
+        "Longitude": 31.2718321,
+        "Latitude": 49.4871968,
+        "Literacy_Rate": 99.7,
+        "mortality_rate": 18.77,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 2124.66,
+        "alcohol_rate_2015": 10.16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2718321,
+          49.4871968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "United Arab Emirates",
+        "Longitude": 53.9994829,
+        "Latitude": 24.0002488,
+        "Literacy_Rate": 90.0,
+        "mortality_rate": 7.5,
+        "mortality_state": 1,
+        "gdp_per_capita_2015": 38663.39,
+        "alcohol_rate_2015": 3.79
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.9994829,
+          24.0002488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Uruguay",
+        "Longitude": -56.0201525,
+        "Latitude": -32.8755548,
+        "Literacy_Rate": 98.1,
+        "mortality_rate": 11.42,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 15613.75,
+        "alcohol_rate_2015": 6.99
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0201525,
+          -32.8755548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Uzbekistan",
+        "Longitude": 63.9528098,
+        "Latitude": 41.32373,
+        "Literacy_Rate": 99.4,
+        "mortality_rate": 13.35,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 2753.97,
+        "alcohol_rate_2015": 2.59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.9528098,
+          41.32373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Vanuatu",
+        "Longitude": 168.1069154,
+        "Latitude": -16.5255069,
+        "Literacy_Rate": 83.2,
+        "mortality_rate": 13.16,
+        "mortality_state": 2,
+        "gdp_per_capita_2015": 2695.67,
+        "alcohol_rate_2015": 2.14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.1069154,
+          -16.5255069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Zambia",
+        "Longitude": 27.5589884,
+        "Latitude": -14.5189121,
+        "Literacy_Rate": 61.4,
+        "mortality_rate": 29.46,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 1338.29,
+        "alcohol_rate_2015": 6.89
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5589884,
+          -14.5189121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Zimbabwe",
+        "Longitude": 29.7468414,
+        "Latitude": -18.4554963,
+        "Literacy_Rate": 83.6,
+        "mortality_rate": 34.55,
+        "mortality_state": 3,
+        "gdp_per_capita_2015": 1445.07,
+        "alcohol_rate_2015": 4.92
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.7468414,
+          -18.4554963
+        ]
+      }
+    }
+  ]
+}
