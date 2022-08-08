@@ -37,7 +37,7 @@ var layerControl = new L.Control.Layers(null, {
 }).addTo(map);
 
 // Retrieve the country GeoJSON data.
-d3.json('../cleaned_data/map.geoJSON').then(function(data) {
+d3.json('static/data/map.geoJSON').then(function(data) {
 	function styleInfo(features) {
 		return {
 		  	opacity: 1,
@@ -92,7 +92,7 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
 
 
 // Retrieve the literacy data
-d3.json("../cleaned_data/map.geojson").then(function(data) {
+d3.json("static/data/map.geojson").then(function(data) {
 	function styleInfo(feature) {
 	return {
 		opacity: 1,
@@ -144,7 +144,7 @@ d3.json("../cleaned_data/map.geojson").then(function(data) {
 
 
 // GDP per Capita 2015
-d3.json('../cleaned_data/map.geoJSON').then(function(data) {
+d3.json('static/data/map.geoJSON').then(function(data) {
     function styleInfo(features) {
 		return {
 		  	opacity: 1,
@@ -189,7 +189,7 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
     }).addTo(gdp2015);
 });
 /////////////////////////////////////////////////////////////////////////////
-d3.json('../cleaned_data/map.geoJSON').then(function(data) {
+d3.json('static/data/map.geoJSON').then(function(data) {
     function styleInfo(features) {
 		return {
 		  	opacity: 1,
