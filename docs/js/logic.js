@@ -1,13 +1,13 @@
 // Add console.log to check to see if our code is working.
 console.log("Working");
 
-alert('You can select the layer icon in the top right corner, or the location markers to interact with the map.');
+// alert('You can select the layer icon in the top right corner, or the location markers to interact with the map.');
 
 // We create the tile layer that will be the background of our map.
-let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
+let streets = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OSM Mapnik <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
 	maxZoom: 18,
-	accessToken: process.env.API_KEY
+	// accessToken: process.env.API_KEY
 });
 
 // Create the map object with center, zoom level and default layer.
@@ -38,7 +38,7 @@ var layerControl = new L.Control.Layers(null, {
 }).addTo(map);
 
 // Retrieve the country GeoJSON data.
-d3.json('../cleaned_data/map.geoJSON').then(function(data) {
+d3.json('static/data/map.geoJSON').then(function(data) {
 	function styleInfo(features) {
 		return {
 		  	opacity: 1,
@@ -93,7 +93,7 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
 
 
 // Retrieve the literacy data
-d3.json("../cleaned_data/map.geojson").then(function(data) {
+d3.json("static/data/map.geojson").then(function(data) {
 	function styleInfo(feature) {
 	return {
 		opacity: 1,
@@ -145,7 +145,7 @@ d3.json("../cleaned_data/map.geojson").then(function(data) {
 
 
 // GDP per Capita 2015
-d3.json('../cleaned_data/map.geoJSON').then(function(data) {
+d3.json('static/data/map.geoJSON').then(function(data) {
     function styleInfo(features) {
 		return {
 		  	opacity: 1,
@@ -190,7 +190,7 @@ d3.json('../cleaned_data/map.geoJSON').then(function(data) {
     }).addTo(gdp2015);
 });
 /////////////////////////////////////////////////////////////////////////////
-d3.json('../cleaned_data/map.geoJSON').then(function(data) {
+d3.json('static/data/map.geoJSON').then(function(data) {
     function styleInfo(features) {
 		return {
 		  	opacity: 1,

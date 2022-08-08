@@ -39,7 +39,7 @@
 <!-- The div that holds our map -->
 <!--<div class="container">-->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
-    <a class="navbar-brand" href="index.html">Mortality</a>
+    <a class="navbar-brand" href="/">Mortality</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -48,16 +48,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="index.html#ETL">ETL</a>
+                <a class="nav-link" href="/#ETL">ETL</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="index.html#Machine_Learning">Machine Learning</a>
+                <a class="nav-link" href="/#Machine_Learning">Machine Learning</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.html#about">About</a>
+                <a class="nav-link" href="/#about">About</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -65,7 +65,7 @@
                     Visualizations
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="main_point.html">Mortality by Country</a>
+                    <a class="dropdown-item" href="/mortality_religion">Mortality by Country</a>
                     <a class="dropdown-item" href="#">ChartOne</a>
                 </div>
             </li>
@@ -129,9 +129,13 @@
                          aria-labelledby="profile-tab"
                          tabindex="0">
                         <div class="row">
-                            As a group, we used an interactive map to best display the user interactivity portion of our project. We chose this as the information we wanted to portray was specifically about different data from different countries.
+                            As a group, we used an interactive map to best display the user interactivity portion of our
+                            project. We chose this as the information we wanted to portray was specifically about
+                            different data from different countries.
 
-                            Using Jupyter Notebook, we were able to collect the country coordinates into a DataFrame and added it to the data already collected. We then used VS Code to create HTML, CSS and JS files to launch the website.
+                            Using Jupyter Notebook, we were able to collect the country coordinates into a DataFrame and
+                            added it to the data already collected. We then used VS Code to create HTML, CSS and JS
+                            files to launch the website.
                             Our tasks to make the map included:
 
                             <ul class="px-5 py-2">
@@ -156,20 +160,25 @@
                          tabindex="0">
                         <div class="row">
                             <div class="col-12" id="sources">
-                                <p class="left">One of the first limitations we encountered, was deciding which data could/should be
-                                displayed when making the map. We decided only one year of GDP and Alcohol should be
-                                displayed with the most recent year being used. If we used all the years we had, it
-                                would make the map very crowded and less informative. We also had to cut out religion,
-                                since there are many religions within each country, and not an easy way to represent
-                                that within a map.
+                                <p class="left">One of the first limitations we encountered, was deciding which data
+                                    could/should be
+                                    displayed when making the map. We decided only one year of GDP and Alcohol should be
+                                    displayed with the most recent year being used. If we used all the years we had, it
+                                    would make the map very crowded and less informative. We also had to cut out
+                                    religion,
+                                    since there are many religions within each country, and not an easy way to represent
+                                    that within a map.
                                     <br><br>
-                                Another limitation that we ran into, was that we weren't able to be more specific in
-                                legend placement. Leaflet only allowed 'topleft', 'topright', 'bottomleft' and
-                                'bottomright'. If bottomleft was selected twice, it would stack them instead of laying
-                                them across the bottom, where we preferred. We also wanted the layers to come in with
-                                its own legend, but were having trouble launching this specification. We also had to
-                                consider how the legends were possibly going to be displayed if more than one layer was
-                                selected.</p>
+                                    Another limitation that we ran into, was that we weren't able to be more specific in
+                                    legend placement. Leaflet only allowed 'topleft', 'topright', 'bottomleft' and
+                                    'bottomright'. If bottomleft was selected twice, it would stack them instead of
+                                    laying
+                                    them across the bottom, where we preferred. We also wanted the layers to come in
+                                    with
+                                    its own legend, but were having trouble launching this specification. We also had to
+                                    consider how the legends were possibly going to be displayed if more than one layer
+                                    was
+                                    selected.</p>
                             </div>
                         </div>
                     </div>
