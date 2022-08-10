@@ -76,7 +76,7 @@ Another limitation that we ran into, was that we weren't able to be more specifi
 
 ## 👌 Interactive Website
 
-The mockup for the site was created using paint and gives the overall flow of the site for us to follow. The inspiration for the mockup was taken from the belly button module. The website will consist of one main landing page and various other pages for charts and maps. The landing page will layout the information about the project and a blurb the team behind the project. The website is hosted on GitHub pages utilizing [Bootstrap](https://getbootstrap.com/) and Javascript. 
+The mockup for the site was created using paint and gives the overall flow of the site for us to follow. The color and flow of the website was inspired by hospital websites. The landing page will layout the information about the project and a blurb the team behind the project. There will be one live map and one chart. The website is hosted on GitHub pages utilizing [Bootstrap](https://getbootstrap.com/) and Javascript. 
 
 ---
 
